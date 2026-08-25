@@ -14,6 +14,27 @@ Portfolio 2- https://instructure.charlotte.edu/eportfolios/4011/Home
 
 
 ## Decide
+Task B:  Product Analysis 
+Part Choosen- Scissors
+<img width="2000" height="2000" alt="IMG_3496" src= https://github.com/rsmith367-ux/design-projects-portfolio/blob/main/docs/assignments/A01/IMG_3496.jpeg>
+a.) To cut through things 
+b.) A simple model is the moment (torque) equation: M=Fd
+      i.)   where:
+M = torque/moment produced about the pivot (N·m)
+F = force applied by the user's hand to the handle (N)
+d = perpendicular distance from the pivot to where the force is applied (m)
+    ii.)  The scissors rotate about the pivot point, converting the force applied at the handles into a cutting force at the blades.
+c.)  
+<img width="2000" height="2000" alt="IMG_8374" src=https://github.com/rsmith367-ux/design-projects-portfolio/blob/main/docs/assignments/A01/IMG_3497.jpeg>
+Blades: The blades apply a shearing force to the material being cut. When the handles are squeezed, the blades rotate around the screw and concentrate force along the inside edge of the blade, causing the material to shear and separate. 
+<img width="2000" height="2000" alt="IMG_8374" src=https://github.com/rsmith367-ux/design-projects-portfolio/blob/main/docs/assignments/A01/IMG_3497.jpeg>
+Screw: The screw acts as the pivot point of the scissors. It holds the two blades together and allows them to rotate when force is applied to the handles. 
+d.)  Inventor- Andrew John Stokes 
+     Patent number- US6493947B2 
+https://patents.google.com/patent/US6493947B2/en?oq=us+6493947b2
+i.)  Utility knife – uses a sharp blade to cut materials such as paper, cardboard, and plastic.
+ Paper cutter – uses a hinged blade to cut paper with a downward shearing motion.
+ii. ) One important design decision described in the patent is the use of different materials in the thumb and finger bows. The patent states that the forward part of the thumb bow is made from a rigid material, while the rearward part is made from a form-stable but flexible material. I think the engineer made this choice to make the scissors more comfortable to use while still maintaining their strength. The rigid material near the pivot provides structural support, while the flexible material around the finger/thumb opening can provide some flexibility and comfort when the user squeezes the handles.
 
 
 ## Communicate
