@@ -12,33 +12,72 @@ Portfolio 2- https://instructure.charlotte.edu/eportfolios/4011/Home
 	This portfolio is efficiently organized, and you could find any information you are looking for in 60 seconds or less. All the information is correctly labeled to what it is linked to. The engineering projects are well documented and all the information provided is orginized. You could recreate this portfolio using canvas and their is adequate amount of information to recreate any of the projectes that are documented. In all of the engineering projects all of the reasoning, decision making, and final project are given. The use of technical language is well used and makes sense within the projects it is being used in. The engineering language used is acceptable if an employer were to look at this portfolio. 
 
 
-
-## Decide
 Task B:  Product Analysis 
+
 Part Choosen- Scissors
 <img width="2000" height="2000" alt="IMG_3496" src="IMG_3496.jpeg">
 
+
 a.) To cut through things 
+
+
 b.) A simple model is the moment (torque) equation: M=Fd
       i.)   where:
+
+	  
 M = torque/moment produced about the pivot (N·m)
+
+
 F = force applied by the user's hand to the handle (N)
+
+
 d = perpendicular distance from the pivot to where the force is applied (m)
-    ii.)  The scissors rotate about the pivot point, converting the force applied at the handles into a cutting force at the blades.
+
+ ii.)  The scissors rotate about the pivot point, converting the force applied at the handles into a cutting force at the blades.
+
+ 
 c.)  
 <img width="2000" height="2000" alt="IMG_3497" src="IMG_3497.jpeg">
 
 Blades: The blades apply a shearing force to the material being cut. When the handles are squeezed, the blades rotate around the screw and concentrate force along the inside edge of the blade, causing the material to shear and separate. 
+
+
 <img width="2000" height="2000" alt="IMG_3498" src="IMG_3498.jpeg">
+
 
 Screw: The screw acts as the pivot point of the scissors. It holds the two blades together and allows them to rotate when force is applied to the handles. 
 d.)  Inventor- Andrew John Stokes 
      Patent number- US6493947B2 
+
+	 
 https://patents.google.com/patent/US6493947B2/en?oq=us+6493947b2
+
+
 i.)  Utility knife – uses a sharp blade to cut materials such as paper, cardboard, and plastic.
  Paper cutter – uses a hinged blade to cut paper with a downward shearing motion.
+
+ 
 ii. ) One important design decision described in the patent is the use of different materials in the thumb and finger bows. The patent states that the forward part of the thumb bow is made from a rigid material, while the rearward part is made from a form-stable but flexible material. I think the engineer made this choice to make the scissors more comfortable to use while still maintaining their strength. The rigid material near the pivot provides structural support, while the flexible material around the finger/thumb opening can provide some flexibility and comfort when the user squeezes the handles.
 
+## Decide
+
+
+1.  Homepage Identity :
+
+The homepage provides visitors with an overview of the engineering projects and technical work presented in this portfolio. It gives the reader an idea of the types of projects included, such as engineering assignments, designs, calculations, and other technical work. The portfolio is organized to make it easy for professors, recruiters, and other engineering professionals to navigate and find specific projects. The homepage also presents the work in a clear and professional manner so visitors can easily understand the quality and range of engineering skills demonstrated throughout the portfolio.
+
+
+2.  One Intentional Customization :
+
+
+One intentional customization I made to the template was changing the color scheme to blue. I chose blue because it makes the different sections of the portfolio easier to distinguish and helps create a consistent appearance throughout the website. This change better supports the requirement for the website to be clear and easy to navigate. The template's original color scheme did not make the sections stand out as clearly, so changing the color to blue helps guide visitors through the different parts of the portfolio and makes the information easier to find.
+
+
+3.  Your Documentation Standard : 
+
+
+For every assignment entry, I will clearly explain the purpose, process, results, and skills demonstrated, while making sure all calculations, images, and information are accurate, organized, and easy for a visitor to understand. 
 
 ## Communicate
+
 
