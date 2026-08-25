@@ -25,9 +25,9 @@ F = force applied by the user's hand to the handle (N)
 d = perpendicular distance from the pivot to where the force is applied (m)
     ii.)  The scissors rotate about the pivot point, converting the force applied at the handles into a cutting force at the blades.
 c.)  
-<img width="2000" height="2000" alt="IMG_8374" src=https://github.com/rsmith367-ux/design-projects-portfolio/blob/main/docs/assignments/A01/IMG_3497.jpeg>
+<img width="2000" height="2000" alt="IMG_3497" src=https://github.com/rsmith367-ux/design-projects-portfolio/blob/main/docs/assignments/A01/IMG_3497.jpeg>
 Blades: The blades apply a shearing force to the material being cut. When the handles are squeezed, the blades rotate around the screw and concentrate force along the inside edge of the blade, causing the material to shear and separate. 
-<img width="2000" height="2000" alt="IMG_8374" src=https://github.com/rsmith367-ux/design-projects-portfolio/blob/main/docs/assignments/A01/IMG_3497.jpeg>
+<img width="2000" height="2000" alt="IMG_3498" src=https://github.com/rsmith367-ux/design-projects-portfolio/blob/main/docs/assignments/A01/IMG_3497.jpeg>
 Screw: The screw acts as the pivot point of the scissors. It holds the two blades together and allows them to rotate when force is applied to the handles. 
 d.)  Inventor- Andrew John Stokes 
      Patent number- US6493947B2 
