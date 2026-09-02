@@ -87,8 +87,12 @@ The calculations above were used to determine the required cross-sectional area 
 
 The calculated minimum cross-sectional area was used to select the final geometry of the truss members. The selected cross-section provides enough area to withstand the maximum member force while maintaining the required factor of safety. This cross-section was then used for the final truss design and CAD model.
 
-
 ### 6. Pin Design
+
+![Pin Design](Screenshot2026-09-02101206.png)
+
+The largest force acting on a pin was 44.27 kN. This force was used with the specified 170 ksi shear yield strength and a factor of safety of 4 to determine the minimum required pin area and diameter. The calculated diameter was then used to determine the weight of the five pins in the final design.
+
 
 ### 7. Pin Area to Diameter 
 
@@ -112,9 +116,6 @@ The calculated minimum cross-sectional area was used to select the final geometr
 ### 16. Final Design
 
 ### 17. CAD Download
-
-
-
 
 
 
