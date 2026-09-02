@@ -24,14 +24,15 @@ The objective of this project is to design a lightweight planar truss that can s
 
 ### 1. Initial Truss Geometry
 
-[Insert your initial sketch here]
+![Initial Truss Sketch](Screenshot%202026-09-02%20091846.png)
 
 The initial sketch was created to establish the overall geometry of the truss and identify the required dimensions, loading locations, and support conditions. At this stage, the goal was to develop a simple and stable layout that could be analyzed using the method of joints. This sketch served as the starting point for evaluating the geometry and making changes before selecting the final truss design.
 
 
 ### 2. Final Truss Geometry
 
-[Insert final dimensioned truss drawing here]
+![Final Truss Geometry](Screenshot%202026-09-02%20092536.png)
+
 
 - a = 0.4 m
 
