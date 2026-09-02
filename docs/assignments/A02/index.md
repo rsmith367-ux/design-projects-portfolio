@@ -48,7 +48,7 @@ The final truss geometry was selected based on structural stability, simplicity,
   
 - By = 25 KN
   
-### 1. Joint Analysis 
+### 3. Joint Analysis 
 
 ### Joint Free-Body Diagrams
 
