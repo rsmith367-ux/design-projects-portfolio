@@ -96,7 +96,15 @@ The largest force acting on a pin was 44.27 kN. This force was used with the spe
 
 ### 7. Pin Area to Diameter 
 
+![Pin Area to Diameter](Screenshot2026-09-02101541.png)
+
+The minimum required pin area was converted into a diameter to determine the smallest practical cylindrical pin size for the design. Using the area of a circle, the calculated minimum diameter was approximately **0.546 in**. This diameter provides the required cross-sectional area to withstand the maximum shear force while maintaining the specified factor of safety.
+
 ### 8. Pin Weight 
+
+![Pin Weight](pinweight.png)
+
+The pin weight was calculated using the selected pin diameter, pin length, number of pins, and the density of the hardened tool steel. The volume of each cylindrical pin was determined first, and the total volume of all five pins was then used to calculate their combined weight. This weight was added to the overall truss weight when evaluating the final design.
 
 ### 9. Truss and Pin Lengths
 
