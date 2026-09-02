@@ -128,7 +128,7 @@ The final truss was modeled in CAD using the dimensions and cross-sectional area
 
 ### 12. CAD Mass Properties 
 
-![CAD Mass Properties ](Screenshot2026-09-01222015.png)
+![CAD Mass Properties](Screenshot%202026-09-01%20222015.png)
 
 The CAD mass properties were used to determine the predicted weight of the final truss design. The model was evaluated using the selected material and final dimensions to obtain the CAD-predicted mass. This value was then compared with the weight calculated by hand to evaluate the accuracy of the design calculations.
 
