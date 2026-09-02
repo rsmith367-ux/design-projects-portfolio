@@ -115,6 +115,10 @@ The initial truss dimensions were determined through the hand calculations befor
 
 ### 10. Truss and Pin Total Weight and Mass
 
+![Truss and Pin Total Weight and Mass](TrussPinWeightMass.png)
+
+The pin diameter was determined from the minimum required cross-sectional area calculated from the maximum shear force and the required factor of safety. The minimum calculated diameter was then used as the basis for selecting the final pin size. The pin length was determined from the dimensions of the truss connection in CAD so that the pin properly passes through the connected members and provides an adequate connection. These final pin dimensions were used in the CAD model and final pin weight calculations.
+
 ### 11. CAD Model 
 
 ### 12. CAD Mass Properties 
