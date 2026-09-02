@@ -121,6 +121,11 @@ The pin diameter was determined from the minimum required cross-sectional area c
 
 ### 11. CAD Model 
 
+![Truss Assembly](TrussAssem.png)
+![Isotropic View](sideviewTruss.png)
+
+The final truss was modeled in CAD using the dimensions and cross-sectional area determined from the previous calculations. After creating the initial CAD model, the B and T dimensions were adjusted because the original calculated dimensions did not produce the expected geometry. The final model includes the truss members and connecting pins with the dimensions used for the final design.
+
 ### 12. CAD Mass Properties 
 
 ### 13. Hand Calculations vs. CAD
