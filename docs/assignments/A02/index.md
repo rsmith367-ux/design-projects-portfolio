@@ -155,7 +155,7 @@ This project took approximately 8 hours to complete from the initial sketch thro
 
 The final truss design incorporates the member dimensions, five pins, and the final B and T dimensions selected after reviewing the CAD model. The design was based on the calculated member and pin forces and was sized to meet the required factors of safety. The final CAD model represents the completed design and was used to verify the dimensions, geometry, and overall weight of the truss.
 
-### 17. CAD Download
+### 18. CAD Download
 
 [Download CAD Files](TrussWithZip.zip)
 
