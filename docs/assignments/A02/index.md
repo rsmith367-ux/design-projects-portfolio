@@ -50,25 +50,19 @@ The final truss geometry was selected based on structural stability, simplicity,
 
  ### 3. Joint FBDs
 
-#### Joint A
+### Joint Free-Body Diagrams
 
-[Insert FBD]
+#### Joint A
+![Joint A](jointA.png)
 
 #### Joint B
-
-[Insert FBD]
+![Joint B](jointb.png)
 
 #### Joint C
-
-[Insert FBD]
+![Joint C](jointC.png)
 
 #### Joint D
-
-[Insert FBD]
+![Joint D](jointD.png)
 
 #### Joint E
-
-
-
-
-
+![Joint E](jointE.png)
