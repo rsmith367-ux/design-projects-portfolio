@@ -46,7 +46,27 @@ The final truss geometry was selected based on structural stability, simplicity,
 - 
 - Ay = 25 KN
   
-- By = 25 KN 
+- By = 25 KN
+
+ ### 3. Joint FBDs
+
+#### Joint A
+
+[Insert FBD]
+
+#### Joint B
+
+[Insert FBD]
+
+#### Joint C
+
+[Insert FBD]
+
+#### Joint D
+
+[Insert FBD]
+
+#### Joint E
 
 
 
