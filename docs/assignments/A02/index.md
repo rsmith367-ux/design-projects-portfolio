@@ -147,7 +147,11 @@ The final truss design was developed by first determining the support reactions 
 
 One of the biggest things I learned from this project was how to use concepts from Statics and Solids together to complete an engineering design. I used Statics to determine the support reactions and internal forces in each truss member, and then used those forces in Solids to determine the required member area and pin diameter based on stress and factors of safety. I also learned that engineering calculations and CAD need to work together, since changes to my B and T dimensions were needed after seeing how the calculated geometry looked in CAD. This project helped me understand how different engineering concepts can be combined to take a design from calculations to a final working model.
 
-### 16. Final Design
+### 16. Time Spent
+
+This project took approximately 8 hours to complete from the initial sketch through the final calculations, CAD model, and documentation.
+
+### 17. Final Design
 
 The final truss design incorporates the member dimensions, five pins, and the final B and T dimensions selected after reviewing the CAD model. The design was based on the calculated member and pin forces and was sized to meet the required factors of safety. The final CAD model represents the completed design and was used to verify the dimensions, geometry, and overall weight of the truss.
 
