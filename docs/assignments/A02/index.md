@@ -138,19 +138,22 @@ The CAD mass properties were used to determine the predicted weight of the final
 
 The hand-calculated weight and the CAD-predicted weight were identical, resulting in a 0% difference. This agreement shows that the final CAD model was created using the same member dimensions, pin dimensions, and material properties used in the hand calculations. The zero percent difference also verifies that the CAD model accurately represents the final calculated design.
 
-### CAD Download
-
-[Download CAD Files](TrussWithZip.zip)
-
 ## Communicate
 ### 14. Design Summary
 
+The final truss design was developed by first determining the support reactions and internal forces using static equilibrium and the method of joints. The largest member and pin forces were then used to determine the required member cross-sectional area and pin diameter while meeting the specified factors of safety. After completing the calculations, the design was modeled in CAD, where the B and T dimensions were adjusted to achieve the intended geometry, and the final CAD weight was verified against the hand calculations.
+
 ### 15. Engineering Lessons Learned
+
+One of the biggest things I learned from this project was how to use concepts from Statics and Solids together to complete an engineering design. I used Statics to determine the support reactions and internal forces in each truss member, and then used those forces in Solids to determine the required member area and pin diameter based on stress and factors of safety. I also learned that engineering calculations and CAD need to work together, since changes to my B and T dimensions were needed after seeing how the calculated geometry looked in CAD. This project helped me understand how different engineering concepts can be combined to take a design from calculations to a final working model.
 
 ### 16. Final Design
 
+The final truss design incorporates the member dimensions, five pins, and the final B and T dimensions selected after reviewing the CAD model. The design was based on the calculated member and pin forces and was sized to meet the required factors of safety. The final CAD model represents the completed design and was used to verify the dimensions, geometry, and overall weight of the truss.
+
 ### 17. CAD Download
 
+[Download CAD Files](TrussWithZip.zip)
 
 
 
