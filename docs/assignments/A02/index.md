@@ -29,16 +29,26 @@ The objective of this project is to design a lightweight planar truss that can s
 The initial sketch was created to establish the overall geometry of the truss and identify the required dimensions, loading locations, and support conditions. At this stage, the goal was to develop a simple and stable layout that could be analyzed using the method of joints. This sketch served as the starting point for evaluating the geometry and making changes before selecting the final truss design.
 
 
-### 2. Final Truss Geometry
+### 2. Final Truss Geometry and Overall Truss FBD with Reaction Forces Calculations
 
 ![Final Truss Geometry](Screenshot%202026-09-02%20092536.png)
 
 
+The final truss geometry was selected based on structural stability, simplicity, and weight. The geometry meets the required dimensions and support conditions while providing a simple layout that is easy to manufacture and analyze. This final design was used for the remaining calculations, including member forces, cross-sectional sizing, pin sizing, and total weight.
+
 - a = 0.4 m
 
 - b = 0.3 m
+  
+- Applied loads = 25 KN
+  
+- Ax = 0 KN
+- 
+- Ay = 25 KN
+  
+- By = 25 KN 
 
-The final truss geometry was selected based on structural stability, simplicity, and weight. The geometry meets the required dimensions and support conditions while providing a simple layout that is easy to manufacture and analyze. This final design was used for the remaining calculations, including member forces, cross-sectional sizing, pin sizing, and total weight.
+
 
 
 
