@@ -89,14 +89,14 @@ The calculated minimum cross-sectional area was used to select the final geometr
 
 ### 6. Pin Design
 
-![Pin Design](Screenshot2026-09-02101206.png)
+![Pin Design](Screenshot%202026-09-02%20101206.png)
 
 The largest force acting on a pin was 44.27 kN. This force was used with the specified 170 ksi shear yield strength and a factor of safety of 4 to determine the minimum required pin area and diameter. The calculated diameter was then used to determine the weight of the five pins in the final design.
 
 
 ### 7. Pin Area to Diameter 
 
-![Pin Area to Diameter](Screenshot2026-09-02101541.png)
+![Pin Area to Diameter](Screenshot%202026-09-02%20101541.png)
 
 The minimum required pin area was converted into a diameter to determine the smallest practical cylindrical pin size for the design. Using the area of a circle, the calculated minimum diameter was approximately **0.546 in**. This diameter provides the required cross-sectional area to withstand the maximum shear force while maintaining the specified factor of safety.
 
