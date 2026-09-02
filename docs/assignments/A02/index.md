@@ -138,6 +138,10 @@ The CAD mass properties were used to determine the predicted weight of the final
 
 The hand-calculated weight and the CAD-predicted weight were identical, resulting in a 0% difference. This agreement shows that the final CAD model was created using the same member dimensions, pin dimensions, and material properties used in the hand calculations. The zero percent difference also verifies that the CAD model accurately represents the final calculated design.
 
+### CAD Download
+
+[Download CAD Files](TrussWithZip.zip)
+
 ## Communicate
 ### 14. Design Summary
 
