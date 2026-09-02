@@ -75,6 +75,9 @@ Analyzing the joints individually also provided a way to verify that the truss r
 The joint analysis determined the force carried by each member and whether the member was subjected to tension or compression. The largest calculated member force was used as the critical loading condition for sizing the truss members. This result was then carried into the stress analysis to determine the minimum required cross-sectional area while maintaining the specified factor of safety.
 
 ### 4. Truss Member Sizing
+![Math For Truss](TrussMAth.png)
+
+
 
 
 
