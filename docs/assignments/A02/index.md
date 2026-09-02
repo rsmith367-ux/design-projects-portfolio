@@ -43,7 +43,7 @@ The final truss geometry was selected based on structural stability, simplicity,
 - Applied loads = 25 KN
   
 - Ax = 0 KN
-- 
+  
 - Ay = 25 KN
   
 - By = 25 KN
