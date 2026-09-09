@@ -6,7 +6,7 @@ The purpose of this assignment is to design an aluminum bar subjected to direct 
 
 ## Analyze
 
-## Initial Design Parameters
+### Initial Design Parameters
 
 ![Bar Design](work1.png)
 
@@ -20,13 +20,13 @@ The direct tension elongation equation was used to determine the required length
 
 The nominal stress in the bar was also calculated to provide a theoretical value to compare with the FEA results. The calculated nominal stress of approximately 8.15 ksi is below the specified aluminum yield strength of 40 ksi. The theoretical safety factor was then calculated. This indicates that the initial analytical design is below the specified yield strength.
 
-## Parametric CAD Analysis
+### Parametric CAD Analysis
 
 ![CAD](barWrightdiameter.png)
 
 The calculated design parameters were then incorporated into the CAD model using parametric equations. The force, Young's modulus, maximum allowable deflection, diameter, cross-sectional area, and length were defined as parameters. The cross-sectional area was calculated from the diameter, while the length was calculated using the axial deflection equation. Linking these values together allows the model to automatically update when a design parameter is changed. The final analytical geometry was a circular bar with a diameter of 0.25 inches and a calculated length of approximately 11.05 inches.
 
-## FEA Setup
+### FEA Setup
 
 ![Mesh](mesh.png)
 
@@ -34,7 +34,7 @@ The completed CAD model was then prepared for finite element analysis. The left 
 
 ## Decide
 
-## FEA Deflection
+### FEA Deflection
 
 ![Deflection](displacement.png)
 
@@ -44,7 +44,7 @@ The maximum deflection obtained from the FEA was: 0.009 inches.
 
 This value will be compared with the analytical deflection limit of 0.009 inches.
 
-## FEA Von Mises Stress
+### FEA Von Mises Stress
 
 ![Von Mises Stress](stress.png)
 
@@ -58,7 +58,7 @@ The maximum stress was compared with the specified aluminum yield strength of 40
 
 The maximum FEA stress was 3.999 ksi, which is below the specified yield strength of 40 ksi. Therefore, the design passes the strength requirement with a safety factor of 10.
 
-## Analytical vs. FEA Deflection
+### Analytical vs. FEA Deflection
 
 ![Percent difference](work3.png)
 
@@ -66,7 +66,7 @@ The analytical calculation predicted a maximum axial deflection of 0.009 inches.
 
 For this simple geometry, the analytical solution provides a reliable prediction of the axial deflection. However, FEA would be more useful for a more complicated geometry because it can account for local effects such as holes, fillets, and stress concentrations.
 
-## Pin-Hole Stress Concentration
+### Pin-Hole Stress Concentration
 
 ![Pin hole calculations](work4.png)
 
@@ -78,13 +78,13 @@ We'll fill in the actual \(K_t\) once you have the hole dimensions/reference cha
 
 ## Communicate
 
-## Design Reflection
+### Design Reflection
 
 This assignment demonstrated how analytical calculations, parametric CAD, and finite element analysis can be combined during the engineering design process. The axial deflection equation was first used to determine the required length of the aluminum bar. The resulting dimensions were then incorporated into a parametric CAD model, allowing the geometry to automatically update when the design parameters were changed. FEA was then used to verify the deformation and stress of the completed design.
 
 Comparing the analytical and FEA results demonstrated the advantages of using both methods. The analytical equation provides a quick and effective way to predict the behavior of a simple bar under direct axial loading, while FEA provides a more detailed representation of stress and displacement throughout the component. The pin-hole analysis also demonstrated how geometric discontinuities can create stress concentrations and significantly increase local stresses.
 
-## Lessons Learned
+### Lessons Learned
 
 Through this assignment, I learned how changes in load, geometry, and material properties affect the deformation and strength of a component. I also learned how parametric CAD can connect engineering calculations directly to model dimensions. Instead of manually entering a final length, the length was calculated from the selected design parameters, making the model easier to modify and evaluate.
 
@@ -92,11 +92,16 @@ I also learned how FEA can be used to verify analytical calculations. For a simp
 
 Another important lesson was the effect of stress concentrations. A hole can significantly increase the local stress even when the nominal stress in the bar is relatively low. This demonstrates why geometric features must be considered when evaluating the safety of an engineering design.
 
-## Time Spent
+### Time Spent
 
 The total time spent completing this assignment was around 2 hours and 30 minutes. This included the time spent reviewing the assignment, completing the analytical calculations, creating the parametric CAD model, setting up the FEA, analyzing the results, and documenting the design process.
 
-## Final Conclusion
+### Final Conclusion
 
 The aluminum bar was designed using analytical axial-deflection calculations, parametric CAD modeling, and finite element analysis. The selected design uses a 400 lbf tensile load, a Young's modulus of \(10\times10^6\) psi, a maximum allowable deflection of 0.009 inches, and a 0.25-inch circular diameter. The analytical calculation resulted in a bar length of approximately 11.05 inches. The parametric CAD model was then created using these design relationships, allowing the geometry to update when the design parameters were changed. FEA was used to verify the deflection and stress of the design. The comparison between the analytical and FEA results demonstrates how both methods can be used together to evaluate and improve an engineering design.
+
+### 18. CAD Download
+
+[Download CAD Files](bar.zip)
+
 
