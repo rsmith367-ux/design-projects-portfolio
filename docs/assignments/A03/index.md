@@ -100,7 +100,7 @@ The total time spent completing this assignment was around 2 hours and 30 minute
 
 The aluminum bar was designed using analytical axial-deflection calculations, parametric CAD modeling, and finite element analysis. The selected design uses a 400 lbf tensile load, a Young's modulus of \(10\times10^6\) psi, a maximum allowable deflection of 0.009 inches, and a 0.25-inch circular diameter. The analytical calculation resulted in a bar length of approximately 11.05 inches. The parametric CAD model was then created using these design relationships, allowing the geometry to update when the design parameters were changed. FEA was used to verify the deflection and stress of the design. The comparison between the analytical and FEA results demonstrates how both methods can be used together to evaluate and improve an engineering design.
 
-### 18. CAD Download
+### CAD Download
 
 [Download CAD Files](bar.zip)
 
