@@ -10,7 +10,7 @@ The purpose of this assignment is to design an aluminum bar subjected to direct 
 
 ![Bar Design](work1.png)
 
-The first step was to determine the design parameters that would be used for the bar. A load of 400 lbf was selected because it falls within the required range of 300 to 500 lbf. A Young's modulus of \(10\times10^6\) psi was selected, which is within the specified aluminum range of \(8.5\times10^6\) to \(11.5\times10^6\) psi. The maximum allowable axial deflection was set to 0.009 inches. A circular cross section with a diameter of 0.25 inches was selected for the bar.
+The first step was to determine the design parameters for the bar. A load of 400 lbf was selected because it falls within the required range of 300 to 500 lbf. A Young's modulus of \(10\times10^6\) psi was selected, which is within the specified aluminum range of \(8.5\times10^6\) to \(11.5\times10^6\) psi. The maximum allowable axial deflection was set to 0.009 inches. A circular cross section with a diameter of 0.25 inches was selected for the bar.
 
 For the Cross-Sectional Area, a circular cross section was selected based on the geometry shown in the assignment. The bar diameter was selected as 0.25 inches. The cross-sectional area was calculated using the area equation for a circle. The resulting area was then used in the direct tension elongation equation to determine the required length of the bar.
 
@@ -77,4 +77,26 @@ Based on this calculation, the estimated stress at the pin hole is 6.91 ksi, and
 We'll fill in the actual \(K_t\) once you have the hole dimensions/reference chart.
 
 ## Communicate
+
+## Design Reflection
+
+This assignment demonstrated how analytical calculations, parametric CAD, and finite element analysis can be combined during the engineering design process. The axial deflection equation was first used to determine the required length of the aluminum bar. The resulting dimensions were then incorporated into a parametric CAD model, allowing the geometry to automatically update when the design parameters were changed. FEA was then used to verify the deformation and stress of the completed design.
+
+Comparing the analytical and FEA results demonstrated the advantages of using both methods. The analytical equation provides a quick and effective way to predict the behavior of a simple bar under direct axial loading, while FEA provides a more detailed representation of stress and displacement throughout the component. The pin-hole analysis also demonstrated how geometric discontinuities can create stress concentrations and significantly increase local stresses.
+
+## Lessons Learned
+
+Through this assignment, I learned how changes in load, geometry, and material properties affect the deformation and strength of a component. I also learned how parametric CAD can connect engineering calculations directly to model dimensions. Instead of manually entering a final length, the length was calculated from the selected design parameters, making the model easier to modify and evaluate.
+
+I also learned how FEA can be used to verify analytical calculations. For a simple bar under direct axial tension, the analytical solution provides a good prediction of the expected deformation. FEA provides additional information about the stress and displacement distribution and becomes especially useful when a component has a more complicated geometry.
+
+Another important lesson was the effect of stress concentrations. A hole can significantly increase the local stress even when the nominal stress in the bar is relatively low. This demonstrates why geometric features must be considered when evaluating the safety of an engineering design.
+
+## Time Spent
+
+The total time spent completing this assignment was around 2 hours and 30 minutes. This included the time spent reviewing the assignment, completing the analytical calculations, creating the parametric CAD model, setting up the FEA, analyzing the results, and documenting the design process.
+
+## Final Conclusion
+
+The aluminum bar was designed using analytical axial-deflection calculations, parametric CAD modeling, and finite element analysis. The selected design uses a 400 lbf tensile load, a Young's modulus of \(10\times10^6\) psi, a maximum allowable deflection of 0.009 inches, and a 0.25-inch circular diameter. The analytical calculation resulted in a bar length of approximately 11.05 inches. The parametric CAD model was then created using these design relationships, allowing the geometry to update when the design parameters were changed. FEA was used to verify the deflection and stress of the design. The comparison between the analytical and FEA results demonstrates how both methods can be used together to evaluate and improve an engineering design.
 
