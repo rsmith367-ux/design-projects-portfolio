@@ -6,6 +6,10 @@ The purpose of this assignment is to design an aluminum bar subjected to direct 
 
 ## Analyze
 
+Initial Design Parameters
+
+The first step was to determine the design parameters that would be used for the bar. A load of 400 lbf was selected because it falls within the required range of 300 to 500 lbf. A Young's modulus of \(10\times10^6\) psi was selected, which is within the specified aluminum range of \(8.5\times10^6\) to \(11.5\times10^6\) psi. The maximum allowable axial deflection was set to 0.009 inches. A circular cross section with a diameter of 0.25 inches was selected for the bar.
+
 
 
 ## Decide
