@@ -24,7 +24,7 @@ The larger calculated dimension will control the design because the cross sectio
 
 ### Figure 2
 
-![Feature 2 work and FBD](picture3.png)
+![Feature 2 work and FBD](Picture3.png)
 
 ![Feature 2 math](picture4.png)
 
