@@ -6,12 +6,13 @@ The purpose of this assignment is to design a motor mount for a Brushed 24V DC G
 
 ## Analyze
 
-### MAterial Research 
+### Material Research 
 
 PLA: PLA (polylactic acid) is a commonly used 3D-printing material that is known for its relatively high stiffness and ease of printing. This makes it a suitable option for a motor mount where limiting deflection is important. Based on the material data from MatWeb, PLA has an average Young’s Modulus of approximately 2.35 GPa and an average tensile yield strength of approximately 45.2 MPa. PLA provides good stiffness and strength for a 3D-printed component, although its properties can vary depending on the specific grade and manufacturing conditions. The strength of a printed PLA part can also be affected by factors such as print orientation, infill, and layer adhesion.
 
 
 ### Figure 1
+
 ![Feature 1 work and FBD](Picture1.png)
 
 The assignment provides the applied force, safety factor, and maximum allowable deflection. The material properties will depend on the selected material. The beam length will be estimated from the motor dimensions and the design concept. The cross-sectional width and height will be determined using the bending stress and deflection equations. The feature is modeled as a cantilever beam. The motor attachment acts as the fixed end, while the 300 N force acts at the free end. The fixed support produces a vertical reaction force and a reaction moment to maintain equilibrium. For the initial calculations, assume the beam has a constant rectangular cross-section. The maximum bending stress occurs at the fixed end of the cantilever beam. The bending stress equation is used to determine the required cross-sectional geometry. The calculated value represents the minimum beam height required to satisfy the bending stress requirement with a safety factor of 3.
@@ -22,8 +23,10 @@ The assignment provides the applied force, safety factor, and maximum allowable 
 The larger calculated dimension will control the design because the cross section must satisfy both requirements. The selected height will be rounded upward to a practical dimension for the CAD model. This provides additional margin and makes the part easier to manufacture. 
 
 ### Figure 2
-![Feature 2 work and FBD](Picture3.png)
-![Feature 2 math](Picture4.png)
+
+![Feature 2 work and FBD](picture3.png)
+
+![Feature 2 math](picture4.png)
 
 The beam length for Feature 2 will be estimated based on the motor mount layout and the distance between wall A and the motor. The width and height will be determined using the stress and deflection calculations. Feature 2 is approximated as a cantilever beam attached to rigid wall A. The wall is assumed to support the mounting bolts without significant movement. The applied load creates a bending moment at the wall attachment, making the fixed-end region the critical location for stress and deflection. The larger dimension will be selected to satisfy both the bending stress and deflection requirements. The final dimension will be rounded upward before creating the CAD model.
 
@@ -43,7 +46,7 @@ The motor mount was created in SolidWorks using the dimensions obtained from the
 
 ### FEA
 
-![Displacement FEA](Displacement.png)
+![Displacement FEA](displacement.png)
 
 A static simulation was conducted on the final design using the **300 N applied load**. The motor mount was modeled with a **19 mm thickness**, and the simulation was used to evaluate its displacement under loading. The maximum displacement was approximately **0.015 mm**, which is significantly lower than the allowable displacement of **0.30 mm**. These results indicate that the selected design satisfies the required deflection limit.
 
