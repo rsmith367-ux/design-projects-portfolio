@@ -30,7 +30,7 @@ The larger calculated dimension will control the design because the cross sectio
 
 The beam length for Feature 2 will be estimated based on the motor mount layout and the distance between wall A and the motor. The width and height will be determined using the stress and deflection calculations. Feature 2 is approximated as a cantilever beam attached to rigid wall A. The wall is assumed to support the mounting bolts without significant movement. The applied load creates a bending moment at the wall attachment, making the fixed-end region the critical location for stress and deflection. The larger dimension will be selected to satisfy both the bending stress and deflection requirements. The final dimension will be rounded upward before creating the CAD model.
 
-![Feature ISO hand drawn view](Picture5.png)
+![Feature ISO hand drawn view](picture5.png)
 
 An isometric sketch was created to show the proposed motor mount design before creating the CAD model. The sketch includes the motor attachment feature, wall attachment feature, shaft clearance hole, bolt holes, and the approximate dimensions obtained from the beam calculations.
 
