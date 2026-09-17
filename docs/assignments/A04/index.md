@@ -49,7 +49,7 @@ A static simulation was conducted on the final design using the **300 N applied 
 
 ## CAD File
 ### Zip File 
-
+[Zip](motermounting.zip)
 ### Part File
-
+[Part](motermounting.SLDPRT)
 
