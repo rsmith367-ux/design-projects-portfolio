@@ -10,19 +10,19 @@ The objective of this project is to conduct stress and stiffness analyses to det
 ![Requirements and values ](pic1.png)
 ![Requirements and values ](pic2.png)
 ### Feature A
-![Feature A](pic2.png)
+![Feature A](pic9.png)
 ![Feature A](pic3.png)
 
 Feature A was modeled as a circular beam subjected to a 1200 lbf load. Stress and stiffness analyses were performed using a factor of safety of 4 and a maximum allowable deflection of 0.005 in. Stress required a diameter of 1.006 in, while stiffness required 0.516 in. Since stress governed, the final diameter was selected as **1.006 in**.
 
 ### Feature B
-![Feature B](pic3.png)
+![Feature B](pic10.png)
 ![Feature B](pic4.png)
 
 Feature B connects Feature A to the upper bracket and was modeled as an axially loaded member. The applied load was 1200 lbf. Stress required a diameter of 0.133 in, while stiffness required 0.0165 in. Since stress governed the design, the final diameter was selected as **0.133 in**.
 
 ### Feature C
-![Feature C](pic4.png)
+![Feature C](pic11.png)
 ![Feature C](pic5.png)
 
 Feature C was modeled as a simply supported beam with a 600 lbf reaction force from Feature B. Stress and stiffness were analyzed using a factor of safety of 4 and a maximum allowable deflection of 0.005 in. Stress required a diameter of 0.133 in, while stiffness required 0.0652 in. The final diameter was selected as **0.133 in** because stress governed.
