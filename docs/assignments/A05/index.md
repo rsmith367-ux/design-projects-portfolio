@@ -28,7 +28,7 @@ Feature B connects Feature A to the upper bracket and was modeled as an axially 
 Feature C was modeled as a simply supported beam with a 600 lbf reaction force from Feature B. Stress and stiffness were analyzed using a factor of safety of 4 and a maximum allowable deflection of 0.005 in. Stress required a diameter of 0.133 in, while stiffness required 0.0652 in. The final diameter was selected as **0.133 in** because stress governed.
 
 ### Feature D
-![Feature D](pic5.png)
+![Feature D](pic12.png)
 
 Feature D was modeled as an axially loaded T-section carrying a 600 lbf load. Stress required a thickness of 0.053 in, while stiffness required 0.00331 in. Since stress was the governing requirement, the final thickness was selected as **0.050 in**.
 
