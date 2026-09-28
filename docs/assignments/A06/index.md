@@ -228,7 +228,7 @@ The completed CAD files are provided below so that the model can be downloaded a
 
 ![CAD Drawing](Bracket_Parametric_Design.zip)
 
-![CAD Part File](Bracket_Parametric_Design.SLDPRT)
+![CAD Drawing File](Bracket_Parametric_Design.SLDPRT)
 
 ![CAD Drawing File](Bracket_Parametric_Design.SLDDRW)
 
