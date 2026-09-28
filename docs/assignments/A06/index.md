@@ -226,7 +226,7 @@ Final Engineering Drawing
 
 The completed CAD files are provided below so that the model can be downloaded and inspected.
 
-![CAD Drawing](Bracket_Parametric_Design.zip)
+![CAD ZIP File](Bracket_Parametric_Design.zip)
 
 ![CAD Drawing File](Bracket_Parametric_Design.SLDPRT)
 
