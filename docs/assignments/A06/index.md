@@ -35,9 +35,80 @@ Factor of safety: 4
 Allowable stress: 9,000 psi
 Maximum allowable deflection: 0.005 in
 
-[INSERT IMAGE: Assignment/specification figure]
+![bracket Concept Design from A5](pic6.png)
+
 
 ## Analyze
+The starting point for this assignment was the strength and stiffness analysis completed in the previous assignment. The calculated dimensions were compared to determine which requirement governed each feature.
+
+The previous analysis showed that the stress requirement governed the final dimensions for Features A through E.
+
+### Final Feature Dimensions
+Feature	Stress Requirement	Stiffness Requirement	Final Dimension
+A	1.006 in	0.516 in	1.006 in
+B	0.133 in	0.0165 in	0.133 in
+C	0.133 in	0.0652 in	0.133 in
+D	0.053 in	0.0031 in	0.050 in
+E	0.053 in	0.0033 in	0.050 in
+
+These values were used as the primary design dimensions for the parametric CAD model.
+
+### Parametric Modeling
+
+![CAD Parametric Table ](pic2.png)
+
+
+Instead of treating each dimension as an independent value, the important dimensions were set up as parameters in CAD. This allows the model to respond to changes in the design requirements without requiring every feature to be manually remodeled. The parametric table contains the important dimensions used to control the bracket geometry. The parameters include the feature dimensions as well as other important dimensions used to define the bracket and its interface.
+
+### Engineering Equation Used to Drive the Model
+
+One of the dimensions was connected to the engineering analysis rather than simply entering the final calculated value manually.
+
+For Feature A, the strength analysis used the bending-stress relationship:
+
+[
+\sigma = \frac{M}{Z}
+]
+
+The allowable stress was determined using the factor of safety:
+
+[
+\sigma_{allow}=\frac{S_y}{SF}
+]
+
+Using the A36 steel yield strength of 36,000 psi and a factor of safety of 4:
+
+[
+\sigma_{allow}=\frac{36,000}{4}
+]
+
+[
+\sigma_{allow}=9,000\text{ psi}
+]
+
+The resulting strength calculation determined that Feature A required a final dimension of:
+
+[
+\boxed{1.006\text{ in}}
+]
+
+This dimension was incorporated into the CAD parameter system so that the model could update when the parameter was changed.
+
+![Feature A dimensions](pic3.png)
+
+### T-Beam Interface
+
+The updated T-beam specifications were also considered when modeling the bracket. The bracket interface needed to provide the required sliding fit over the rigid T-beam.
+
+The updated T-beam dimensions were:
+
+(a = 0.498) in with a tolerance of (+0.000/-0.001) in
+(b = 0.9992) in with a tolerance of (+0.000/-0.0005) in
+(c = 1.499) in with a tolerance of (+0.000/-0.001) in
+
+These dimensions were used to determine the corresponding bracket interface geometry and gaps.
+
+![Feature A dimensions](pic3.png)
 
 
 ## Decide
