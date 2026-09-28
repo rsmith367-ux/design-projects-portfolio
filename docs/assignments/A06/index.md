@@ -17,12 +17,15 @@ Apply appropriate linear tolerances.
 Include a tolerance block and title block.
 Document the design process, mistakes, changes, and time spent.
 Provide a downloadable CAD file for the completed design.
-Design Requirements
+
+### Design Requirements
 
 The bracket was designed to attach to a rigid T-beam and hold a polyester strap. The updated T-beam specifications used for the interface were:
 
 (a = 0.498) in
+
 (b = 0.9992) in
+
 (c = 1.499) in
 
 The material selected for the bracket was A36 steel.
@@ -30,9 +33,13 @@ The material selected for the bracket was A36 steel.
 The material properties used in the previous analysis were:
 
 Yield strength: (S_y = 36,000) psi
+
 Elastic modulus: (E = 29,000,000) psi
+
 Factor of safety: 4
+
 Allowable stress: 9,000 psi
+
 Maximum allowable deflection: 0.005 in
 
 ![bracket Concept Design from A5](pic6.png)
@@ -46,9 +53,13 @@ The previous analysis showed that the stress requirement governed the final dime
 ### Final Feature Dimensions
 Feature	Stress Requirement	Stiffness Requirement	Final Dimension
 A	1.006 in	0.516 in	1.006 in
+
 B	0.133 in	0.0165 in	0.133 in
+
 C	0.133 in	0.0652 in	0.133 in
+
 D	0.053 in	0.0031 in	0.050 in
+
 E	0.053 in	0.0033 in	0.050 in
 
 These values were used as the primary design dimensions for the parametric CAD model.
@@ -103,7 +114,9 @@ The updated T-beam specifications were also considered when modeling the bracket
 The updated T-beam dimensions were:
 
 (a = 0.498) in with a tolerance of (+0.000/-0.001) in
+
 (b = 0.9992) in with a tolerance of (+0.000/-0.0005) in
+
 (c = 1.499) in with a tolerance of (+0.000/-0.001) in
 
 These dimensions were used to determine the corresponding bracket interface geometry and gaps.
@@ -140,9 +153,13 @@ The final design decisions were based on the results of the previous strength an
 The final dimensions selected for the five analyzed features were:
 
 Feature A = 1.006 in
+
 Feature B = 0.133 in
+
 Feature C = 0.133 in
+
 Feature D = 0.050 in
+
 Feature E = 0.050 in
 
 Stress governed the design for these features because the stress-based dimensions were larger than the dimensions required by the stiffness calculations.
@@ -154,7 +171,9 @@ The bracket material was selected as A36 steel, consistent with the previous ana
 The engineering drawing uses the required general linear tolerance classes:
 
 X.X ± 0.02 in
+
 X.XX ± 0.01 in
+
 X.XXX ± 0.005 in
 
 The tighter tolerances were applied where dimensional accuracy is more important to the function of the bracket, particularly at mating or sliding-fit interfaces. Less critical dimensions can use the looser general tolerance because small variations in those dimensions have less effect on the function of the bracket.
@@ -168,16 +187,54 @@ A multi-view engineering drawing was created from the completed parametric model
 The drawing includes:
 
 Multiple orthographic views
+
 Third-angle projection
+
 Complete dimensional information
+
 Sliding-fit/interface dimensions
+
 General tolerance block
+
 Material information
+
 Title block
+
 Scale
+
 Drawing identification information
 
 ![CAD Drawing](pic10.png)
 
+### Drawing Tolerance Block
+
+The general tolerance block was set to:
+
+LINEAR
+
+X.X ± 0.02
+
+X.XX ± 0.01
+
+X.XXX ± 0.005
+
+![Tolerance Block](pic11.png)
+
 ## Communicate
+
+The final design was communicated through the parametric CAD model, engineering drawing, calculations, and documentation of the design process. The completed engineering drawing provides the dimensions, tolerances, views, and material information needed to communicate the design to someone who would manufacture the bracket. The parametric CAD model provides the actual three-dimensional geometry and allows important design dimensions to be changed without rebuilding the entire model manually.
+
+### Final CAD Model
+
+![ISO view of CAD](pic1.png)
+
+Final Engineering Drawing
+
+![CAD Drawing](pic10.png)
+
+CAD Files
+
+The completed CAD files are provided below so that the model can be downloaded and inspected.
+
+
 
