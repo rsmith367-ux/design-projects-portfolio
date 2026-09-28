@@ -122,11 +122,62 @@ The bracket was modeled by creating the primary geometry first and then adding t
 
 ![Feature C](pic5.png)
 
-![Feature D and E](pic7.png)
+![Feature D and E](pic8.png)
+
+![Feature D and E](pic9.png)
+
+### Design Changes and Mistakes
+
+During the modeling process, I checked the CAD model against the calculated dimensions and the updated T-beam specifications. Any dimensions or features that did not match the requirements were corrected before creating the final drawing. One important consideration was making sure that the updated T-beam specifications were used for the interface rather than relying only on dimensions from the previous design.
 
 
 ## Decide
 
+The final design decisions were based on the results of the previous strength and stiffness analysis and the functional requirements of the bracket.
+
+### Final Design Dimensions
+
+The final dimensions selected for the five analyzed features were:
+
+Feature A = 1.006 in
+Feature B = 0.133 in
+Feature C = 0.133 in
+Feature D = 0.050 in
+Feature E = 0.050 in
+
+Stress governed the design for these features because the stress-based dimensions were larger than the dimensions required by the stiffness calculations.
+
+The bracket material was selected as A36 steel, consistent with the previous analysis.
+
+### Tolerancing Decisions
+
+The engineering drawing uses the required general linear tolerance classes:
+
+X.X ± 0.02 in
+X.XX ± 0.01 in
+X.XXX ± 0.005 in
+
+The tighter tolerances were applied where dimensional accuracy is more important to the function of the bracket, particularly at mating or sliding-fit interfaces. Less critical dimensions can use the looser general tolerance because small variations in those dimensions have less effect on the function of the bracket.
+
+Using a tighter tolerance on every dimension would increase manufacturing and inspection requirements without providing a functional benefit for non-critical features.
+
+### Engineering Drawing
+
+A multi-view engineering drawing was created from the completed parametric model. The drawing uses third-angle projection and includes the dimensions and tolerances needed to communicate the design.
+
+The drawing includes:
+
+Multiple orthographic views
+Third-angle projection
+Complete dimensional information
+Sliding-fit/interface dimensions
+General tolerance block
+Material information
+Title block
+Scale
+Drawing identification information
+
+![CAD Drawing](pic10.png)
 
 ## Communicate
 
