@@ -77,31 +77,21 @@ One of the dimensions was connected to the engineering analysis rather than simp
 
 For Feature A, the strength analysis used the bending-stress relationship:
 
-$$
-\sigma = \frac{M}{Z}
-$$
+<p align="center"> <strong>σ = M / Z</strong> </p>
 
 The allowable stress was determined using the factor of safety:
 
-$$
-\sigma_{allow} = \frac{S_y}{SF}
-$$
+<p align="center"> <strong>σ<sub>allow</sub> = S<sub>y</sub> / SF</strong> </p>
 
 Using the A36 steel yield strength of 36,000 psi and a factor of safety of 4:
 
-$$
-\sigma_{allow} = \frac{36,000}{4}
-$$
+<p align="center"> <strong>σ<sub>allow</sub> = 36,000 / 4</strong> </p>
 
-$$
-\sigma_{allow} = 9,000\text{ psi}
-$$
+<p align="center"> <strong>σ<sub>allow</sub> = 9,000 psi</strong> </p>
 
 The resulting strength calculation determined that Feature A required a final dimension of:
 
-$$
-\boxed{1.006\text{ in}}
-$$
+<p align="center"> <strong>Feature A = 1.006 in</strong> </p>
 
 This dimension was incorporated into the CAD parameter system so that the model could update when the parameter was changed.
 
@@ -232,9 +222,15 @@ Final Engineering Drawing
 
 ![CAD Drawing](pic10.png)
 
-CAD Files
+### CAD Files
 
 The completed CAD files are provided below so that the model can be downloaded and inspected.
+
+![CAD Drawing](Bracket_Parametric_Design.zip)
+
+![CAD Part File](Bracket_Parametric_Design.SLDPRT)
+
+![CAD Drawing File](Bracket_Parametric_Design.SLDDRW)
 
 
 
