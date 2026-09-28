@@ -66,31 +66,31 @@ One of the dimensions was connected to the engineering analysis rather than simp
 
 For Feature A, the strength analysis used the bending-stress relationship:
 
-[
+$$
 \sigma = \frac{M}{Z}
-]
+$$
 
 The allowable stress was determined using the factor of safety:
 
-[
-\sigma_{allow}=\frac{S_y}{SF}
-]
+$$
+\sigma_{allow} = \frac{S_y}{SF}
+$$
 
 Using the A36 steel yield strength of 36,000 psi and a factor of safety of 4:
 
-[
-\sigma_{allow}=\frac{36,000}{4}
-]
+$$
+\sigma_{allow} = \frac{36,000}{4}
+$$
 
-[
-\sigma_{allow}=9,000\text{ psi}
-]
+$$
+\sigma_{allow} = 9,000\text{ psi}
+$$
 
 The resulting strength calculation determined that Feature A required a final dimension of:
 
-[
+$$
 \boxed{1.006\text{ in}}
-]
+$$
 
 This dimension was incorporated into the CAD parameter system so that the model could update when the parameter was changed.
 
@@ -108,7 +108,21 @@ The updated T-beam dimensions were:
 
 These dimensions were used to determine the corresponding bracket interface geometry and gaps.
 
-![Feature A dimensions](pic3.png)
+![T-Beam Front Viwe ](pic7.png)
+
+### Modeling Process
+
+The bracket was modeled by creating the primary geometry first and then adding the features required by the design. The dimensions were controlled using the established parameters.
+
+![ISO view of CAD](pic1.png)
+
+![Feature A](pic3.png)
+
+![Feature B](pic4.png)
+
+![Feature C](pic5.png)
+
+![Feature D and E](pic7.png)
 
 
 ## Decide
