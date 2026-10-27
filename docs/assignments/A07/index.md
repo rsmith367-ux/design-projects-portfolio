@@ -60,9 +60,9 @@ $$
 \times 100\%
 $$
 
-I compared the maximum von Mises stress, maximum resultant displacement, and minimum factor of safety for each mesh. The goal was to achieve a percent change of no more than 7% between consecutive runs, or complete three convergence attempts as required by the assignment. If the stress results did not converge within the three attempts, I recorded the results from the finest mesh.
+I compared the maximum von Mises stress, maximum resultant displacement, and minimum factor of safety for each mesh. The goal was to achieve a percent change of no more than 7% between consecutive runs, or complete three convergence attempts as required by the assignment. If the stress results did not converge within three attempts, I recorded the finest-mesh results.
 
-After evaluating the original bracket, I used the simulation results to guide changes to the geometry. I repeated the analysis for three design iterations to compare how each design affected stress, displacement, factor of safety, and mass.
+After evaluating the original bracket, I used the simulation results to guide geometry changes. I repeated the analysis for three design iterations to compare how each design affected stress, displacement, factor of safety, and mass.
 
 ## Analyze
 
@@ -94,6 +94,8 @@ Minimum factor of safety: 23.39
 
 #### Design Iteration 2 — Added a second arm
 
+![second Arm ](secondarm.png)
+
 ![Design 2 Data table ](2sim123.png)
 
 For the second design iteration, I added another support arm to the original bracket to evaluate how the additional structural support affected its performance under the applied load. The purpose of this change was to improve the bracket's stiffness and distribute the load across more of the structure. I then ran a static FEA study using the same material, fixtures, and applied load as the original design. I compared the maximum von Mises stress, maximum resultant displacement, minimum factor of safety, and mass to determine whether the additional arm improved the overall design.
@@ -104,25 +106,31 @@ For the second design iteration, I added another support arm to the original bra
 
 ![Design 2 FOS ](2FOS.png)
 
-- **Geometry change:** Added a second support arm.
-- **Mass: 0.62 lb
-- **Maximum von Mises stress: 5,140,000 psi
-- **Maximum resultant displacement: 0.01930 mm
-- **Minimum factor of safety: 46.21
+- Geometry change:** Added a second support arm.
+- Mass: 0.62 lb
+- Maximum von Mises stress: 5,140,000 psi
+- Maximum resultant displacement: 0.01930 mm
+- Minimum factor of safety: 46.21
 
 ### Design Iteration — Thicker Base
 
+![Thicker Base Design](thickerbase.png)
+
+![Design 3 Data table ](3sim123.png)
+
 I increased the thickness of the bracket's base to evaluate how adding material to this area affected its structural performance. The goal was to improve stiffness and reduce deformation under the applied load. I kept the material, fixtures, and loading conditions consistent with the previous designs so I could compare the FEA results. I then evaluated the maximum von Mises stress, maximum resultant displacement, minimum factor of safety, and mass to determine whether the thicker base improved the bracket's performance enough to justify the additional material.
 
-![Thicker Base Design]()
+![Design 3 Stress ](3stress.png)
 
-*Figure X. Bracket design with an increased base thickness.*
+![Design 3 Displacement ](3displacement.png)
 
-- **Geometry change:** Increased the thickness of the base.
-- **Mass:** [Enter value] lb
-- **Maximum von Mises stress:** [Enter value] psi
-- **Maximum resultant displacement:** [Enter value] in
-- **Minimum factor of safety:** [Enter value]
+![Design 3 FOS ](3FOS.png)
+
+- Geometry change:** Increased the thickness of the base.
+- Mass: 0.78 lb
+- Maximum von Mises stress: 5,410,000 psi
+- Maximum resultant displacement: 0.006287 mm
+- Minimum factor of safety: 46.21
   
 
 
