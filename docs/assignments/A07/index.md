@@ -66,6 +66,11 @@ After evaluating the original bracket, I used the simulation results to guide ch
 
 ## Analyze
 
+### Mesh Convergence
+
+I performed mesh convergence testing on my original A6 bracket design to determine how mesh refinement affected the accuracy of the FEA results. I kept the geometry, material, fixtures, and applied load consistent while refining the mesh for each run.
+
+
 
 ## Decide
 
