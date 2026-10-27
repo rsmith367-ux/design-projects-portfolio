@@ -28,7 +28,7 @@ Allowable stress: 9,000 psi
 
 Maximum allowable deflection: 0.005 in
 
-![bracket Concept Design from A5](picture1png-Copy(2).png)
+![Bracket FEA Model](images/picture1png%20-%20Copy%20(2).png)
 
 ## Analyze
 
