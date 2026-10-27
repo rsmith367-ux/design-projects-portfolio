@@ -70,6 +70,33 @@ After evaluating the original bracket, I used the simulation results to guide ch
 
 I performed mesh convergence testing on my original A6 bracket design to determine how mesh refinement affected the accuracy of the FEA results. I kept the geometry, material, fixtures, and applied load consistent while refining the mesh for each run.
 
+![Design 1 Data table ](sim123.png)
+
+I compared the results from each run to determine whether the stress results met the assigned 7% convergence requirement. I used the finest mesh results for my baseline comparison and documented whether convergence was achieved within the allowed attempts.
+
+#### Design Iteration 1 — Original Bracket
+
+I used my original A6 bracket as the baseline design. I evaluated the von Mises stress, resultant displacement, and factor of safety to identify areas of high stress and deformation. I also recorded the mass of the bracket to use as a reference when comparing the updated designs.
+
+![Design 1 Stress ](stress1.png)
+
+![Design 1 Displacement ](displacement1.png)
+
+![Design 1 FOS ](FOS1.png)
+
+Mass: 0.56 lb
+
+Maximum von Mises stress: 10,690,000 psi
+
+Maximum resultant displacement: 0.068 mm
+
+Minimum factor of safety: 0.2339
+
+
+
+
+
+
 
 
 ## Decide
