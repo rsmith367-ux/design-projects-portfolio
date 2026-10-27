@@ -92,6 +92,10 @@ Maximum resultant displacement: 0.068 mm
 
 Minimum factor of safety: 23.39
 
+##### Design 1 – Discussion of Results and Changes
+
+The original A6 bracket served as the baseline for comparing the three designs. At the finest mesh, the maximum displacement was [enter value] in, and the maximum von Mises stress was [enter value] psi. The minimum factor of safety was [enter value], and the bracket had a mass of 0.56 lb. These results provided a reference for evaluating whether the additional support and material in the next two designs improved the bracket's structural performance.
+
 #### Design Iteration 2 — Added a second arm
 
 ![second Arm ](secondarm.png)
@@ -112,6 +116,10 @@ For the second design iteration, I added another support arm to the original bra
 - Maximum resultant displacement: 0.01930 mm
 - Minimum factor of safety: 46.21
 
+##### Design 2 – Discussion of Results and Changes
+
+Adding a second support arm was intended to improve the bracket's stiffness and help distribute the applied load across more of the structure. At the finest mesh, the maximum displacement was [enter value] in, and the maximum von Mises stress was [enter value] psi. The minimum factor of safety was [enter value], and the mass increased to [enter value] lb. Comparing these results with the original design showed whether the additional arm reduced deformation or stress enough to justify the increase in mass.
+
 ### Design Iteration — Thicker Base
 
 ![Thicker Base Design](thickerbase.png)
@@ -131,7 +139,10 @@ I increased the thickness of the bracket's base to evaluate how adding material 
 - Maximum von Mises stress: 5,410,000 psi
 - Maximum resultant displacement: 0.006287 mm
 - Minimum factor of safety: 46.21
-  
+
+##### Design 3 – Discussion of Results and Changes
+
+Increasing the size of the upper mounting feature added more material to the bracket and allowed me to evaluate how this geometry change affected its structural performance. At the finest mesh, the maximum displacement was [enter value] in, and the maximum von Mises stress was [enter value] psi. The minimum factor of safety was [enter value], and the bracket's mass increased to 0.78 lb. I compared these results with the first two designs to determine whether the larger mounting feature improved strength and stiffness enough to justify the additional mass. The finest mesh results were especially important because they provided a more reliable basis for evaluating the peak stress and minimum factor of safety.
 
 
 
