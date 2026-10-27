@@ -145,12 +145,44 @@ Increasing the size of the upper mounting feature added more material to the bra
 
 ### Convergence Check
 
+![Convergence Check ](check.png)
 
+## Convergence Check
 
+![Convergence Check](<A7_Convergence_Check.jpg>)
 
+I compared the maximum displacement and maximum von Mises stress between successive mesh runs for all three bracket designs. The goal was for the results to change by no more than 7% between the final two meshes. After completing three mesh runs for each design, I used the finest mesh results for my final evaluation if the stress results had not converged within the required limit. This does not necessarily mean the reported peak stress is fully mesh-independent. Localized stress concentrations near corners, mounting features, or fixed boundaries may influence the maximum stress values.
+
+## Checking the Factor of Safety
+
+The factor of safety shown in the FEA results is based on the material yield strength and the maximum von Mises stress:
+
+**FOS = Yield Strength / Maximum von Mises Stress**
+
+For my A36 steel bracket, I used a yield strength of 36,000 psi. To meet my original design target of a factor of safety of 4, the maximum von Mises stress would need to be at or below 9,000 psi.
+
+**FOS = 36,000 psi / Maximum von Mises Stress**
+
+I used the finest mesh results to evaluate the factor of safety for each design. I also compared the maximum displacement with my original deflection limit of 0.005 in to determine whether each design met the required stiffness.
+
+The original bracket had a mass of 0.56 lb, while Design 3 had a mass of 0.78 lb. This increase of 0.22 lb represents approximately a 39.3% increase in mass. I considered this additional weight alongside the stress, displacement, and factor of safety results when comparing the three designs.
 
 ## Decide
 
+This assignment helped me understand how changes in bracket geometry and mesh refinement affect the reliability of finite element analysis results. I evaluated three bracket designs, using my original A6 bracket, which had a mass of 0.56 lb, as the baseline. In Design 2, I added a second support arm to investigate whether additional support would improve stiffness and distribute the load more effectively. In Design 3, I enlarged the upper mounting feature to evaluate how the additional material affected structural performance. The mass of Design 3 increased to 0.78 lb, an increase of 0.22 lb, or approximately 39.3%, compared with the original design.
+
+By comparing the maximum von Mises stress, maximum displacement, and minimum factor of safety for each design, I learned that improving one aspect of a bracket's performance can involve trade-offs with mass. I also learned the importance of mesh refinement because a coarser mesh may not accurately capture localized peak stresses. Therefore, I used the finest mesh results to evaluate each design rather than relying on a single simulation run. Ultimately, this assignment showed me how to use FEA results to make informed design decisions and assess the balance between strength, stiffness, safety, and weight.
+
 
 ## Communicate
+
+Time spent: 5 hours 
+
+CAD files:
+
+![Bracket 1 ](Bracket_Parametric_Design_I_CAD_only)
+
+![Bracket 2 ](Bracket_Parametric_Design_II_CAD_only)
+
+![Bracket 3](Bracket_Parametric_Design_III_CAD_only)
 
