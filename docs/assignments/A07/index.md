@@ -53,12 +53,7 @@ I started by running a static FEA study on my original A6 bracket design. I refi
 
 To check mesh convergence, I calculated the percent change between consecutive runs using:
 
-$$
-\text{Percent Change} =
-\frac{|\text{New Result} - \text{Previous Result}|}
-{|\text{Previous Result}|}
-\times 100\%
-$$
+**Percent Change (%) = (|New Result − Previous Result| / |Previous Result|) × 100**
 
 I compared the maximum von Mises stress, maximum resultant displacement, and minimum factor of safety for each mesh. The goal was to achieve a percent change of no more than 7% between consecutive runs, or complete three convergence attempts as required by the assignment. If the stress results did not converge within three attempts, I recorded the finest-mesh results.
 
