@@ -47,8 +47,19 @@ I then applied the 1,400 lbf downward force to the loading face on the lower cyl
 I generated an initial mesh and ran the static simulation to evaluate the maximum von Mises stress, maximum resultant displacement, and minimum factor of safety. I used these results as the baseline for evaluating how changes to the bracket geometry affected its structural performance and mass.
 
 
+### Workflow and Mesh Validation
 
-## Workflow and Mesh Validation
+I started by running a static FEA study on my original A6 bracket design. I refined the mesh over three successive runs while keeping the geometry, material, fixtures, and applied load the same. This allowed me to check how mesh refinement affected the simulation results.
+
+To check mesh convergence, I calculated the percent change between consecutive runs using:
+
+\[
+\text{Percent Change}=\frac{|\text{New Result}-\text{Previous Result}|}{|\text{Previous Result}|}\times100\%
+\]
+
+I compared the maximum von Mises stress, maximum resultant displacement, and minimum factor of safety for each mesh. The goal was to achieve a percent change of no more than 7% between consecutive runs, or complete three convergence attempts as required by the assignment. If the stress results did not converge within the three attempts, I recorded the results from the finest mesh.
+
+After evaluating the original bracket, I used the simulation results to guide changes to the geometry. I repeated the analysis for three design iterations to compare how each design affected stress, displacement, factor of safety, and mass.
 
 ## Analyze
 
