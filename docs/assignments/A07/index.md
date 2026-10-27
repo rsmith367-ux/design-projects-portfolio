@@ -70,7 +70,7 @@ After evaluating the original bracket, I used the simulation results to guide ch
 
 I performed mesh convergence testing on my original A6 bracket design to determine how mesh refinement affected the accuracy of the FEA results. I kept the geometry, material, fixtures, and applied load consistent while refining the mesh for each run.
 
-![Design 1 Data table ](sim123.png)
+![Design 1 Data table ](initialsim123.png)
 
 I compared the results from each run to determine whether the stress results met the assigned 7% convergence requirement. I used the finest mesh results for my baseline comparison and documented whether convergence was achieved within the allowed attempts.
 
@@ -90,8 +90,40 @@ Maximum von Mises stress: 10,690,000 psi
 
 Maximum resultant displacement: 0.068 mm
 
-Minimum factor of safety: 0.2339
+Minimum factor of safety: 23.39
 
+#### Design Iteration 2 — Added a second arm
+
+![Design 2 Data table ](2sim123.png)
+
+For the second design iteration, I added another support arm to the original bracket to evaluate how the additional structural support affected its performance under the applied load. The purpose of this change was to improve the bracket's stiffness and distribute the load across more of the structure. I then ran a static FEA study using the same material, fixtures, and applied load as the original design. I compared the maximum von Mises stress, maximum resultant displacement, minimum factor of safety, and mass to determine whether the additional arm improved the overall design.
+
+![Design 2 Stress ](2stress.png)
+
+![Design 2 Displacement ](2displacement.png)
+
+![Design 2 FOS ](2FOS.png)
+
+- **Geometry change:** Added a second support arm.
+- **Mass: 0.62 lb
+- **Maximum von Mises stress: 5,140,000 psi
+- **Maximum resultant displacement: 0.01930 mm
+- **Minimum factor of safety: 46.21
+
+### Design Iteration — Thicker Base
+
+I increased the thickness of the bracket's base to evaluate how adding material to this area affected its structural performance. The goal was to improve stiffness and reduce deformation under the applied load. I kept the material, fixtures, and loading conditions consistent with the previous designs so I could compare the FEA results. I then evaluated the maximum von Mises stress, maximum resultant displacement, minimum factor of safety, and mass to determine whether the thicker base improved the bracket's performance enough to justify the additional material.
+
+![Thicker Base Design]()
+
+*Figure X. Bracket design with an increased base thickness.*
+
+- **Geometry change:** Increased the thickness of the base.
+- **Mass:** [Enter value] lb
+- **Maximum von Mises stress:** [Enter value] psi
+- **Maximum resultant displacement:** [Enter value] in
+- **Minimum factor of safety:** [Enter value]
+  
 
 
 
