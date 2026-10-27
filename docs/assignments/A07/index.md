@@ -174,6 +174,10 @@ This assignment helped me understand how changes in bracket geometry and mesh re
 By comparing the maximum von Mises stress, maximum displacement, and minimum factor of safety for each design, I learned that improving one aspect of a bracket's performance can involve trade-offs with mass. I also learned the importance of mesh refinement because a coarser mesh may not accurately capture localized peak stresses. Therefore, I used the finest mesh results to evaluate each design rather than relying on a single simulation run. Ultimately, this assignment showed me how to use FEA results to make informed design decisions and assess the balance between strength, stiffness, safety, and weight.
 
 
+### Conclusion
+
+I evaluated three bracket designs using finite element analysis to investigate how geometry changes affected structural performance. The original design provided a baseline, the second design introduced an additional support arm, and the third design enlarged the upper mounting feature. Design 3 had a mass of 0.78 lb compared with 0.56 lb for the original design. I used the FEA results to compare the effects of these changes on stress, displacement, and factor of safety. The design that best meets the project requirements should be selected based on its finest mesh results and its ability to satisfy the strength, stiffness, safety, and mass requirements.
+
 ## Communicate
 
 Time spent: 5 hours 
