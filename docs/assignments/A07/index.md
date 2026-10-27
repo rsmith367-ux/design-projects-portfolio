@@ -42,9 +42,11 @@ I used a static study in SOLIDWORKS Simulation to evaluate my original A6 bracke
 
 I then applied the 1,400 lbf downward force to the loading face on the lower cylindrical support to represent the force acting on the bracket. I kept the support and loading conditions consistent so I could compare the original design with my later design iterations.
 
-
+![Initial FEA Setup](<picture3png - Copy (2).png>)
 
 I generated an initial mesh and ran the static simulation to evaluate the maximum von Mises stress, maximum resultant displacement, and minimum factor of safety. I used these results as the baseline for evaluating how changes to the bracket geometry affected its structural performance and mass.
+
+
 
 ## Workflow and Mesh Validation
 
