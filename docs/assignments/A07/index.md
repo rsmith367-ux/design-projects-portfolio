@@ -184,9 +184,7 @@ Time spent: 5 hours
 
 CAD files:
 
-![Bracket 1 ](Bracket_Parametric_Design_I_CAD_only)
-
-![Bracket 2 ](Bracket_Parametric_Design_II_CAD_only)
-
-![Bracket 3](Bracket_Parametric_Design_III_CAD_only)
+[Bracket Design III — CAD Only](Bracket_Parametric_Design_III_CAD_only.zip)
+[Bracket Design II — CAD Only](Bracket_Parametric_Design_II_CAD_only.zip)
+[Bracket Design I — CAD Only](Bracket_Parametric_Design_I_CAD_only.zip)
 
