@@ -139,7 +139,11 @@ I increased the thickness of the bracket's base to evaluate how adding material 
 
 Increasing the size of the upper mounting feature added more material to the bracket and allowed me to evaluate how this geometry change affected its structural performance. At the finest mesh, the maximum displacement was [enter value] in, and the maximum von Mises stress was [enter value] psi. The minimum factor of safety was [enter value], and the bracket's mass increased to 0.78 lb. I compared these results with the first two designs to determine whether the larger mounting feature improved strength and stiffness enough to justify the additional mass. The finest mesh results were especially important because they provided a more reliable basis for evaluating the peak stress and minimum factor of safety.
 
+### Final Comparison
 
+![Final Comparison](final.png)
+
+### Convergence Check
 
 
 
