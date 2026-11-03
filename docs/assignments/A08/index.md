@@ -323,3 +323,5 @@ The time I spent on this assignment was six hours
 ### 4.5 CAD Files and Final Deliverables
 
 The final SolidWorks part files, assembly file, and engineering drawings are included with the project documentation.
+
+[Gear Box Assembly](A8_gearBoxAssem.zip)
