@@ -214,13 +214,112 @@ t = 0.0320 in
 These values represent the radial wall thickness of each selected sleeve bearing.
 
 ### 2.9 Housing Design Considerations
+
 ![Hand Calculations](pic10.png)
+
 The gearbox housing must support both shafts and maintain the correct gear center distance. The housing must also provide enough clearance for the gears to rotate without contacting the enclosure.
 
 The housing was designed as two separate components to allow the gearbox to be assembled and disassembled. The bearing locations, shaft openings, gear cavity, and fastening locations must be considered during the design process.
 
 ## Decide
 
+### 3.1 Gear Selection
+
+The 18-tooth brass pinion and 48-tooth brass output gear were selected because they have matching 48 diametral pitch and 20° pressure angles. These specifications allow the gears to mesh correctly.
+
+The gear combination provides the required 2.667:1 gear ratio.
+
+### 3.2 Shaft Design
+
+The input and output shaft diameters were initially specified by the assignment. Torsional stress calculations were performed to evaluate the strength of each shaft.
+
+The calculated torsional shear stresses were approximately 1,222 psi for the input shaft and 407 psi for the output shaft. Final acceptance of the shaft diameters depends on comparing these stresses with the allowable stress of the selected shaft material and the required factor of safety.
+
+### 3.3 Journal Bearing Selection
+
+SAE 841 bearing bronze sleeve bearings were selected for both shafts. The bearings are oil-impregnated and provide a simple method of supporting rotating shafts under radial loads.
+
+The input bearing was selected for the 1/8-inch shaft, and the output bearing was selected for the 1/4-inch shaft. Their different dimensions accommodate the different shaft diameters.
+
+### 3.4 Housing Design
+
+![Global Equations](pic2.png)
+
+![Houseing sketch](pic1.png)
+
+![Open Case](pic3.png)
+
+![Closed Case](pic4.png)
+
+A two-piece housing was selected to allow the gearbox to be assembled and disassembled. The housing incorporates bearing locations, shaft openings, and clearance for the rotating gears.
+
+The final housing dimensions were developed around the actual gear and bearing dimensions rather than using arbitrary component sizes.
+
+### 3.5 Final Design Selection
+
+The final design uses two brass spur gears, two shafts, two SAE 841 bronze sleeve bearings, and a two-piece housing. The design is intended to meet the specified speed and torque requirements while providing support and clearance for the rotating components.
 
 ## Communicate
 
+### 4.1 Final SolidWorks Components
+
+The gearbox was modeled in SolidWorks using parametric dimensions. The individual components were modeled using the dimensions obtained from the assignment requirements and McMaster-Carr product specifications.
+
+The modeled components include:
+
+1. Input shaft
+2. Output shaft
+3. Input pinion
+4. Output gear
+5. Input journal bearing
+6. Output journal bearing
+7. Upper gearbox housing
+8. Lower gearbox housing
+
+### 4.2 Gearbox Assembly
+
+The individual components were assembled in SolidWorks to create the complete gearbox. The assembly was used to verify the relative positions of the gears, shafts, bearings, and housing.
+
+The gear center distance was designed around the calculated value of 0.6875 in. The housing was designed to provide clearance around the gears and allow the gearbox to be disassembled.
+
+### 4.3 Engineering Drawings
+
+Engineering drawings were created for the required components and complete assembly.
+
+The drawing package includes:
+
+- Input shaft drawing
+- Output shaft drawing
+- Upper housing drawing
+- Lower housing drawing
+- Input plain bearing drawing
+- Output plain bearing drawing
+- Complete gearbox assembly drawing
+
+The drawings follow the required third-angle projection layout and include dimensions and tolerances following ASME Y14.5 standards.
+
+The specified tolerance block was included:
+
+- X.X ± 0.02
+- X.XX ± 0.01
+- X.XXX ± 0.005
+
+Additional geometric tolerancing was applied to critical features where appropriate.
+
+### 4.4 Lessons Learned
+
+Throughout this assignment, I learned how gear specifications affect the performance and compatibility of a gear train. I learned that matching diametral pitch and pressure angle is necessary for two spur gears to mesh correctly.
+
+I also learned how torque, shaft diameter, and rotational speed affect the design of a power transmission system. The torsional stress calculations demonstrated how strongly shaft diameter influences the stress in a solid circular shaft.
+
+The journal bearing calculations helped me understand the importance of bearing pressure, surface velocity, lubrication, and bearing material selection. I also learned that bearing loads must be determined from the shaft support reactions rather than simply assuming that each bearing carries the entire gear force.
+
+During the SolidWorks modeling process, I gained experience using global variables and equations to control component dimensions. I also learned that designing parts individually is only one part of the process; the components must fit together correctly in the final assembly.
+
+Finally, I learned the importance of engineering drawings, tolerances, and clear documentation when designing a mechanical system that must be manufactured and assembled.
+
+The time I spent on this assignment was six hours
+
+### 4.5 CAD Files and Final Deliverables
+
+The final SolidWorks part files, assembly file, and engineering drawings are included with the project documentation.
