@@ -324,4 +324,4 @@ The time I spent on this assignment was six hours
 
 The final SolidWorks part files, assembly file, and engineering drawings are included with the project documentation.
 
-[Gear Box Assembly](A8_gearBoxAssem.zip)
+[Gear Box Assembly](A8_GearBoxAssem.zip)
