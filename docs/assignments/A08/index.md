@@ -60,6 +60,8 @@ C = 0.6875 in
 
 ### 2.2 Gear Speed and Torque Calculations
 
+![Hand Calculations](pic6.png)
+
 The output speed is specified as 1,100 rpm. Assuming an ideal gear train, the input speed is calculated using:
 
 N1 / N2 = T2 / T1
@@ -85,6 +87,8 @@ Therefore, the calculated operating conditions are:
 
 ### 2.3 Gear Forces
 
+![Hand Calculations](pic7.png)
+
 The tangential force transmitted between the gears is calculated using:
 
 Ft = 2T / D
@@ -107,6 +111,8 @@ These forces act at the gear mesh and are used when determining the reactions at
 
 ### 2.4 Input Shaft Analysis
 
+![Hand Calculations](pic7.png)
+
 The input shaft has a specified diameter of 0.125 in and a length of 1.000 in. It transmits the calculated input torque of 0.46875 in·lbf.
 
 For a solid circular shaft, the maximum torsional shear stress is:
@@ -122,6 +128,8 @@ Substituting the input shaft dimensions:
 The calculated shear stress must be compared with the allowable shear stress of the selected shaft material to determine whether the shaft diameter is sufficient.
 
 ### 2.5 Output Shaft Analysis
+
+![Hand Calculations](pic7.png)
 
 The output shaft has a specified diameter of 0.250 in and a length of 1.000 in. It transmits the specified output torque of 1.25 in·lbf.
 
@@ -158,6 +166,10 @@ The output bearing has the following specifications:
 Both bearings are oil-impregnated sleeve bearings designed for radial loading.
 
 ### 2.7 Journal Bearing Calculations
+
+![Hand Calculations](pic8.png)
+
+![Hand Calculations](pic9.png)
 
 The projected bearing area is calculated using:
 
@@ -202,7 +214,7 @@ t = 0.0320 in
 These values represent the radial wall thickness of each selected sleeve bearing.
 
 ### 2.9 Housing Design Considerations
-
+![Hand Calculations](pic10.png)
 The gearbox housing must support both shafts and maintain the correct gear center distance. The housing must also provide enough clearance for the gears to rotate without contacting the enclosure.
 
 The housing was designed as two separate components to allow the gearbox to be assembled and disassembled. The bearing locations, shaft openings, gear cavity, and fastening locations must be considered during the design process.
