@@ -6,8 +6,7 @@ The objective of this project was to design a gearbox that can be assembled and 
 
 The project required the selection and analysis of the gears, shafts, and journal bearings. The input and output shafts were evaluated for torsional strength, while the journal bearings were evaluated based on bearing pressure, surface velocity, PV rating, and wall thickness.
 
-A parametric SolidWorks model was developed to create the gearbox components and verify that the gears, shafts, and bearings fit together. The final design also required engineering drawings following ASME Y14.5 standards.
-
+A parametric SolidWorks model was developed to create the gearbox components and verify that the gears, shafts, and bearings fit together. 
 ### Design Requirements
 
 | Parameter | Required Value |
