@@ -28,10 +28,184 @@ A parametric SolidWorks model was developed to create the gearbox components and
 | Shaft fit | Running sliding fit in housing/bearings |
 | Gear-to-shaft connection | Press fit through gear hubs |
 
-
+![Known design Parameters](pic5.png)
 
 ## Analyze
 
+### 2.1 Gear Selection and Specifications
+
+The gearbox uses two brass spur gears from McMaster-Carr. Both gears have a 20° pressure angle and a diametral pitch of 48 teeth per inch. The input pinion has 18 teeth, while the output gear has 48 teeth.
+
+The gear ratio is calculated using:
+
+Gear Ratio = Number of Output Gear Teeth / Number of Input Pinion Teeth
+
+Gear Ratio = 48 / 18 = 2.667
+
+The resulting gear ratio is 2.667:1. This means the output gear rotates more slowly than the input pinion while increasing the available output torque.
+
+The pitch diameters are:
+
+Input pinion pitch diameter = 0.375 in
+
+Output gear pitch diameter = 1.000 in
+
+The distance between the gear centers is:
+
+C = (D1 + D2) / 2
+
+C = (0.375 + 1.000) / 2
+
+C = 0.6875 in
+
+### 2.2 Gear Speed and Torque Calculations
+
+The output speed is specified as 1,100 rpm. Assuming an ideal gear train, the input speed is calculated using:
+
+N1 / N2 = T2 / T1
+
+N1 = 1,100(48 / 18)
+
+N1 = 2,933.33 rpm
+
+The input torque is calculated using conservation of power:
+
+T1 × N1 = T2 × N2
+
+T1 = (1.25 × 1,100) / 2,933.33
+
+T1 = 0.46875 in·lbf
+
+Therefore, the calculated operating conditions are:
+
+- Input speed: 2,933.33 rpm
+- Output speed: 1,100 rpm
+- Input torque: 0.46875 in·lbf
+- Output torque: 1.25 in·lbf
+
+### 2.3 Gear Forces
+
+The tangential force transmitted between the gears is calculated using:
+
+Ft = 2T / D
+
+Using the input pinion:
+
+Ft = (2 × 0.46875) / 0.375
+
+Ft = 2.50 lbf
+
+The radial force is calculated using the pressure angle:
+
+Fr = Ft × tan(20°)
+
+Fr = 2.50 × tan(20°)
+
+Fr = 0.910 lbf
+
+These forces act at the gear mesh and are used when determining the reactions at the shaft supports.
+
+### 2.4 Input Shaft Analysis
+
+The input shaft has a specified diameter of 0.125 in and a length of 1.000 in. It transmits the calculated input torque of 0.46875 in·lbf.
+
+For a solid circular shaft, the maximum torsional shear stress is:
+
+τmax = 16T / (πd³)
+
+Substituting the input shaft dimensions:
+
+τmax = [16(0.46875)] / [π(0.125)³]
+
+τmax = approximately 1,222 psi
+
+The calculated shear stress must be compared with the allowable shear stress of the selected shaft material to determine whether the shaft diameter is sufficient.
+
+### 2.5 Output Shaft Analysis
+
+The output shaft has a specified diameter of 0.250 in and a length of 1.000 in. It transmits the specified output torque of 1.25 in·lbf.
+
+Using the torsional shear stress equation:
+
+τmax = 16T / (πd³)
+
+Substituting the output shaft dimensions:
+
+τmax = [16(1.25)] / [π(0.250)³]
+
+τmax = approximately 407 psi
+
+The calculated shear stress must be compared with the allowable shear stress of the selected shaft material.
+
+### 2.6 Journal Bearing Selection
+
+Two SAE 841 bearing bronze sleeve bearings were selected from McMaster-Carr.
+
+The input bearing has the following specifications:
+
+- Shaft diameter: 0.125 in
+- Bearing inside diameter: 0.1255 in
+- Bearing outside diameter: 0.1885 in
+- Bearing length: 0.250 in
+
+The output bearing has the following specifications:
+
+- Shaft diameter: 0.250 in
+- Bearing inside diameter: 0.2515 in
+- Bearing outside diameter: 0.3155 in
+- Bearing length: 0.375 in
+
+Both bearings are oil-impregnated sleeve bearings designed for radial loading.
+
+### 2.7 Journal Bearing Calculations
+
+The projected bearing area is calculated using:
+
+A = D × L
+
+The bearing pressure is:
+
+P = W / (D × L)
+
+The shaft surface velocity is:
+
+V = πDN / 12
+
+where D is in inches and N is in rpm. The resulting velocity is in ft/min.
+
+The pressure-velocity value is:
+
+PV = P × V
+
+The input bearing and output bearing must be evaluated separately using their respective shaft speeds, bearing dimensions, and calculated bearing reaction loads.
+
+The bearing reaction load, W, must be obtained from the shaft free-body diagrams. It should not automatically be assumed to equal the entire gear force.
+
+### 2.8 Journal Bearing Wall Thickness
+
+The bearing wall thickness is calculated using:
+
+t = (OD - ID) / 2
+
+Input bearing:
+
+t = (0.1885 - 0.1255) / 2
+
+t = 0.0315 in
+
+Output bearing:
+
+t = (0.3155 - 0.2515) / 2
+
+t = 0.0320 in
+
+These values represent the radial wall thickness of each selected sleeve bearing.
+
+### 2.9 Housing Design Considerations
+
+The gearbox housing must support both shafts and maintain the correct gear center distance. The housing must also provide enough clearance for the gears to rotate without contacting the enclosure.
+
+The housing was designed as two separate components to allow the gearbox to be assembled and disassembled. The bearing locations, shaft openings, gear cavity, and fastening locations must be considered during the design process.
 
 ## Decide
 
