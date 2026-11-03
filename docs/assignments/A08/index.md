@@ -242,14 +242,6 @@ The input bearing was selected for the 1/8-inch shaft, and the output bearing wa
 
 ### 3.4 Housing Design
 
-![Global Equations](pic2.png)
-
-![Houseing sketch](pic1.png)
-
-![Open Case](pic3.png)
-
-![Closed Case](pic4.png)
-
 A two-piece housing was selected to allow the gearbox to be assembled and disassembled. The housing incorporates bearing locations, shaft openings, and clearance for the rotating gears.
 
 The final housing dimensions were developed around the actual gear and bearing dimensions rather than using arbitrary component sizes.
@@ -264,6 +256,8 @@ The final design uses two brass spur gears, two shafts, two SAE 841 bronze sleev
 
 The gearbox was modeled in SolidWorks using parametric dimensions. The individual components were modeled using the dimensions obtained from the assignment requirements and McMaster-Carr product specifications.
 
+![Global Equations](pic2.png)
+
 The modeled components include:
 
 1. Input shaft
@@ -275,37 +269,19 @@ The modeled components include:
 7. Upper gearbox housing
 8. Lower gearbox housing
 
+![Houseing sketch](pic1.png)
+
+![Open Case](pic3.png)
+
+![Closed Case](pic4.png)
+
 ### 4.2 Gearbox Assembly
 
 The individual components were assembled in SolidWorks to create the complete gearbox. The assembly was used to verify the relative positions of the gears, shafts, bearings, and housing.
 
 The gear center distance was designed around the calculated value of 0.6875 in. The housing was designed to provide clearance around the gears and allow the gearbox to be disassembled.
 
-### 4.3 Engineering Drawings
-
-Engineering drawings were created for the required components and complete assembly.
-
-The drawing package includes:
-
-- Input shaft drawing
-- Output shaft drawing
-- Upper housing drawing
-- Lower housing drawing
-- Input plain bearing drawing
-- Output plain bearing drawing
-- Complete gearbox assembly drawing
-
-The drawings follow the required third-angle projection layout and include dimensions and tolerances following ASME Y14.5 standards.
-
-The specified tolerance block was included:
-
-- X.X ± 0.02
-- X.XX ± 0.01
-- X.XXX ± 0.005
-
-Additional geometric tolerancing was applied to critical features where appropriate.
-
-### 4.4 Lessons Learned
+### 4.3 Lessons Learned
 
 Throughout this assignment, I learned how gear specifications affect the performance and compatibility of a gear train. I learned that matching diametral pitch and pressure angle is necessary for two spur gears to mesh correctly.
 
@@ -315,11 +291,9 @@ The journal bearing calculations helped me understand the importance of bearing 
 
 During the SolidWorks modeling process, I gained experience using global variables and equations to control component dimensions. I also learned that designing parts individually is only one part of the process; the components must fit together correctly in the final assembly.
 
-Finally, I learned the importance of engineering drawings, tolerances, and clear documentation when designing a mechanical system that must be manufactured and assembled.
-
 The time I spent on this assignment was six hours
 
-### 4.5 CAD Files and Final Deliverables
+### 4.4 CAD Files and Final Deliverables
 
 The final SolidWorks part files, assembly file, and engineering drawings are included with the project documentation.
 
