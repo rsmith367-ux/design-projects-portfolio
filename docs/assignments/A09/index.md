@@ -93,7 +93,7 @@ For the supporting frame, I selected 6061-T6 aluminum because of its strength-to
 
 Overall, I used the engineering calculations and manufacturer specifications to narrow down the component selections. The remaining consideration was ensuring that the commercially available belt dimensions matched the theoretical belt requirements before finalizing the complete assembly.
 
-![Calculations](pic9.png)
+![Calculations](pic10.png)
 
 ## Communicate
 
