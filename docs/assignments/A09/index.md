@@ -21,13 +21,17 @@ For the materials, I selected polyurethane rubber for the belt, hardened 1060 st
 
 ### Belt Design
 
-I started the design process by focusing on selecting the belt for the pulley system. First, I listed the known and unknown variables and created a free-body diagram (FBD) to identify the forces acting on the belt.
+I started the design process by focusing on determining the forces acting on the belt and calculating the required belt dimensions. I began by listing the known and unknown variables and creating a free-body diagram (FBD) to represent the forces acting on the pulley system.
 
-Next, I used the stationary belt tension and the belt friction relationship to calculate the tight-side and loose-side forces. From these calculations, I obtained a tight-side force of 9.59 lbf and a loose-side force of 0.414 lbf.
+Using the selected stationary belt tension of 5 lbf and the belt friction relationship, I calculated the tight-side and loose-side belt forces. These calculations resulted in a tight-side force of 9.59 lbf and a loose-side force of 0.414 lbf.
 
-After determining the belt forces, I calculated the required belt cross-sectional area and diameter using the given polyurethane rubber yield strength of 471 psi and a safety factor of 3. The calculated belt diameter was 0.279 inches, with a cross-sectional area of 0.0611 in².
+After determining the belt forces, I calculated the required belt cross-sectional area and diameter using the given polyurethane rubber yield strength of 471 psi and a minimum factor of safety of 3. The calculated cross-sectional area was approximately 0.0611 in², resulting in a theoretical belt diameter of 0.279 inches.
 
-Finally, I calculated the theoretical belt length using the selected pulley diameter and center distance. The calculated open-belt length was approximately 19.425 inches. This provided an initial belt length to use when selecting a suitable belt from the McMaster-Carr catalog.
+Next, I calculated the theoretical length required for an open belt connecting two 3-inch-diameter pulleys separated by 5 inches. Using the open-belt length equation, I determined that the required belt length was approximately 19.425 inches.
+
+To identify a commercially available belt, I researched McMaster-Carr and found a polyurethane rubber round belt, part number 5904T421. According to the product specifications, this belt has a 6 mm diameter, a 203 mm outer circumference, and is made of polyurethane rubber. It is orange and is rated for temperatures between -10°F and 150°F.
+
+The catalog selection provided a potential material and belt type for the design. However, comparing its dimensions with my calculations showed that the selected belt would require further evaluation because its circumference and diameter are smaller than the theoretical requirements.
 
 ![Calculations ](pic2.png)
 
@@ -35,13 +39,13 @@ Finally, I calculated the theoretical belt length using the selected pulley diam
 
 ### Minimum Shaft Diameter
 
-After completing the belt design, I moved on to determining the minimum required shaft diameter. I used the tight-side and loose-side belt forces calculated in the previous section to determine the torque applied to the pulley shaft.
+After completing the belt calculations, I moved on to determining the minimum required shaft diameter. I used the tight-side and loose-side belt forces calculated previously to determine the torque transmitted through the pulley shaft.
 
-I first identified the known values, including the belt forces and the yield strength of hardened 1060 steel. I then created a free-body diagram to represent the shaft's loading and direction of rotation.
+I first identified the known values, including the belt forces, pulley radius, and yield strength of hardened 1060 steel. I then created a free-body diagram to represent the loading conditions and direction of rotation.
 
-Using the difference between the tight-side and loose-side belt forces and the pulley radius, I calculated the torque transmitted through the shaft. I then applied the torsional stress relationship to determine the minimum shaft diameter while accounting for the required safety factor.
+Using the difference between the tight-side and loose-side belt forces and the pulley radius, I calculated the torque transmitted through the shaft. I then applied the torsional stress relationship while accounting for the required factor of safety.
 
-The calculated minimum shaft diameter was approximately 0.173 inches. This value represents the theoretical minimum based on the loading and material properties used in my calculations.
+The calculated minimum shaft diameter was approximately 0.173 inches. This represents the theoretical minimum diameter based on the loading conditions and material properties used in my calculations.
 
 ![Calculations ](pic4.png)
 
@@ -61,15 +65,33 @@ Finally, I multiplied the bearing pressure by the surface velocity to obtain a P
 
 ### Frame Design and Engineering Analysis
 
-After completing the pulley, shaft, and bearing calculations, I moved on to designing a frame to support the pulley system. I selected 6061-T6 aluminum as the frame material because it provides sufficient strength for the loading conditions while keeping the structure relatively lightweight.
+After completing the pulley, shaft, and bearing calculations, I moved on to designing a frame to support the pulley system. I selected 6061-T6 aluminum because it provides sufficient strength for the loading conditions while keeping the structure relatively lightweight.
 
-I used a design load of 10 lbf and a minimum safety factor requirement of 3 to evaluate the frame. I calculated the cross-sectional area of the frame and used the applied load to determine the resulting stress. I also considered the effect of the mounting holes by calculating the net cross-sectional area.
+I used a design load of 10 lbf and a minimum required factor of safety of 3 to evaluate the frame. I calculated the cross-sectional area and used the applied load to determine the resulting stress. I also considered the effect of the mounting holes by calculating the net cross-sectional area.
 
-The calculated stress for the original cross-section was approximately 26.67 psi, resulting in a safety factor of approximately 1,500. After accounting for the mounting holes, the net stress increased to approximately 32 psi, giving a safety factor of approximately 1,250. Both calculated safety factors were greater than the required minimum of 3.
+The calculated stress for the original cross-section was approximately 26.67 psi, resulting in a factor of safety of approximately 1,500. After accounting for the mounting holes, the net stress increased to approximately 32 psi, giving a factor of safety of approximately 1,250. Both calculated safety factors exceeded the required minimum of 3.
 
-I also calculated the estimated frame deflection under the applied load. The resulting deflection was approximately 0.0000133 inches. Based on these simplified calculations, the proposed frame cross-section has sufficient strength and stiffness for the loading conditions considered.
+I also calculated the estimated frame deflection under the applied load. The resulting deflection was approximately 0.0000133 inches. Based on these simplified calculations, the proposed frame cross-section provided sufficient strength and stiffness for the loading conditions considered.
 
 ![Frame](pic8.png)
+
+![Calculations](pic9.png)
+
+## Decide 
+
+After completing the engineering calculations, I compared my theoretical design requirements with commercially available components to determine which materials and components would be appropriate for the pulley system.
+
+For the belt, I researched McMaster-Carr and identified part number 5904T421, a polyurethane rubber round belt. I considered this option because it uses the required belt material and has a 6 mm diameter. Its polyurethane construction also makes it a potential option for the application.
+
+However, after comparing the catalog specifications with my calculated requirements, I determined that the belt dimensions would need to be verified before finalizing the selection. The catalog lists an outer circumference of 203 mm, while my calculations indicate that approximately 493.4 mm is required. The catalog diameter of 6 mm is also smaller than my calculated diameter of approximately 7.09 mm.
+
+For the shafts, I retained hardened 1060 steel because it provided the material properties needed to calculate the minimum shaft diameter while satisfying the required safety factor. My calculations indicated a theoretical minimum diameter of approximately 0.173 inches.
+
+For the journal bearings, I considered nylon, polycarbonate, and acetal based on the calculated bearing pressure of 19.27 psi and PV value of approximately 1,309 psi·ft/min. The final bearing selection would need to satisfy the manufacturer's pressure, velocity, and PV limitations.
+
+For the supporting frame, I selected 6061-T6 aluminum because of its strength-to-weight characteristics. My calculations showed that the frame exceeded the minimum required factor of safety of 3, even after accounting for the reduction in cross-sectional area caused by the mounting holes.
+
+Overall, I used the engineering calculations and manufacturer specifications to narrow down the component selections. The remaining consideration was ensuring that the commercially available belt dimensions matched the theoretical belt requirements before finalizing the complete assembly.
 
 ![Calculations](pic9.png)
 
@@ -77,12 +99,14 @@ I also calculated the estimated frame deflection under the applied load. The res
 
 ### Conclusion and Lessons Learned
 
-Throughout this project, I learned how the different components of a pulley system depend on one another. The belt forces determined the torque transmitted to the shaft, while the shaft diameter and applied loading were used to evaluate the journal bearing requirements. I also learned how to use stress, safety factor, and deflection calculations to evaluate a supporting frame.
+Throughout this project, I learned how to apply engineering principles to the design of a complete pulley system. I used concepts involving friction, torque, torsional stress, bearing pressure, surface velocity, and frame deflection to evaluate the different components and determine the requirements for a functional design.
 
-One important lesson I learned was how changes in belt tension affect the overall system. The difference between the tight-side and loose-side belt forces determines the torque transmitted through the pulley, while their combined loading contributes to the radial force acting on the shaft and bearings.
+One of the most important things I learned was how the different components of a mechanical system depend on one another. The tight-side and loose-side belt forces determine the torque transmitted through the pulley, while their combined loading contributes to the radial force acting on the shaft and journal bearings. This showed me why each component must be analyzed as part of the overall system rather than independently.
 
-I also learned the importance of considering the mounting holes when evaluating a frame. Although the original cross-sectional area provided a certain stress value, removing material for mounting holes reduced the net area and increased the calculated stress.
+I also gained experience researching commercially available components using the McMaster-Carr catalog. By comparing my calculated belt requirements with the specifications of part number 5904T421, I learned the importance of checking manufacturer dimensions against theoretical calculations before selecting a component. A product may have the correct material and general design but still not meet the dimensional requirements of the system.
 
-Overall, this project helped me understand how to apply statics, mechanics of materials, and machine design principles to a complete mechanical system rather than analyzing each component independently.
+Another important lesson was understanding how mounting holes affect the strength of a structural component. Removing material reduces the net cross-sectional area, which increases the resulting stress. Accounting for these changes allowed me to evaluate the frame more accurately.
 
-**Time Spent:** I spent approximately 2.5 hours (2 hours and 30 minutes) completing the calculations and design analysis for this pulley system project.
+Overall, this project helped me improve my ability to move from theoretical engineering calculations to actual component research and mechanical design decisions. It also reinforced the importance of verifying component specifications, considering safety factors, and evaluating how individual design choices affect the performance of an entire mechanical system.
+
+Time Spent: I spent approximately 2.5 hours (2 hours and 30 minutes) completing the calculations, researching components, and developing the engineering analysis for this pulley system project. hours and 30 minutes) completing the calculations and design analysis for this pulley system project.
