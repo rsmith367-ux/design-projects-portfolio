@@ -65,16 +65,29 @@ Figure 5 – McMaster-Carr dimensioned drawing of the selected bronze nut (95072
 Figure 6 – McMaster-Carr dimensioned drawing of the selected steel flange (95082A641)
 ![McMaster-Carr dimensioned drawing of the selected steel flange (95082A641)](pic20.png)
 
-
 | **Component** | **Part number** | **Quantity** | **Key dimensions** |
 | ------------- | -------------- | -----------: | ----------------- |
-| McMaster-Carr Component | [93410A608](https://www.mcmaster.com/93410A608/ "93410A608") | 1 | See manufacturer drawing for dimensions |
+| Bronze nut | [95072A127](https://www.mcmaster.com/95072A127/ "95072A127") | 2 | 3/8-10 internal thread; 0.688 in OD; 0.625 in length |
+| Steel flange | [95082A641](https://www.mcmaster.com/95082A641/ "95082A641") | 2 | 9/16-18 mounting thread; nominal 1.609 in OD; 1.125 in bolt circle |
+
+The two-piece configuration was selected because it provides a mounting flange without changing the lead screw selected by the team. The steel flange provides the mounting interface to the crosshead, while the bronze nut provides the internal threads that engage the lead screw.
 
 ### Crosshead Design and CAD - Rebekah Smith
 The objective of this portion of the project was to design a crosshead for a mechanically driven tensile testing machine capable of applying a maximum tensile load of 2 kN. The crosshead connects the two vertical leadscrews through bronze nut and flange assemblies and provides a mounting location for the tensile specimen. The design required selecting an appropriate material and cross-sectional dimensions while maintaining a factor of safety of 4 and limiting the maximum crosshead deflection to 0.1 mm. Beam strength and deflection analyses were performed to determine whether the proposed crosshead dimensions would meet the design requirements.
 
 Crosshead Design – Beam Strength Analysis
 The crosshead was modeled as a simply supported beam with a concentrated load applied at its center. The two bronze nut and flange assemblies act as the supports for the crosshead. The two support reactions represent the forces from the left and right bronze nut and flange assemblies. Because the loading is symmetrical, both support reactions are equal.
+
+
+Figure 7 – Crosshead beam strength analysis and free-body diagram – Rebekah Smith
+![Crosshead beam strength analysis and free-body diagram – Rebekah Smith](pic7.png)
+
+Figure 8 – Symbolic and numerical beam strength calculations – Rebekah Smith
+![Symbolic and numerical beam strength calculations – Rebekah Smith](pic8.png)
+
+Using static equilibrium, the support reactions can be determined by summing the vertical forces. Sum of forces in the vertical direction: ΣFy = 0, RA + RB - F = 0 Due to symmetrical loading: RA = RB Therefore: RA = RB = F/2 The maximum bending moment for a simply supported beam with a centered point load is: Mmax = FL/4 The bending stress equation is: σmax = Mmax/S The allowable stress using a safety factor of 4 is: σallow = Sy/n Rearranging the bending stress equation to determine the minimum required section modulus: Smin = nMmax/Sy For a rectangular cross-section, the section modulus is: S = bh²/6.
+
+First, calculate the support reactions: RA = RB = 2000/2, RA = RB = 1,000 N Calculate the maximum bending moment: Mmax = (2000)(304.8)/4 Mmax = 152,400 N·mm Calculate the allowable bending stress: σallow = 248.2/4 σallow = 62.05 MPa Calculate the minimum required section modulus: Smin = (4)(152400)/248.2 Smin = 2,456.1 mm³ A rectangular cross-section measuring 50 mm wide and 40 mm high was selected. Calculate the section modulus: S = (50)(40²)/6 S = 13,333.3 mm³ Calculate the maximum bending stress: σmax = 152400/13333.3 σmax = 11.43 MPa Calculate the actual factor of safety: FOS = 248.2/11.43 FOS = 21.71 The calculated factor of safety of 21.71 exceeds the required factor of safety of 4. Therefore, the selected A36 steel cross-section satisfies the preliminary beam strength requirement.
 
 
 ## Decide
