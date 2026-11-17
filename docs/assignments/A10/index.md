@@ -93,8 +93,7 @@ First, calculate the support reactions: RA = RB = 2000/2, RA = RB = 1,000 N Calc
 The deflection analysis was performed to determine whether the selected crosshead dimensions could maintain a maximum deflection of 0.1 mm under the applied 2 kN tensile load. The same simply supported beam configuration and centered load were used for the deflection analysis. The maximum deflection occurs at the center of the beam, where the tensile load is applied.
 
 Figure 9 – Crosshead beam deflection calculations – Rebekah Smith
-
-![Crosshead beam deflection calculations – Rebekah Smith](images/crosshead_deflection_calculations.png)
+![Crosshead beam deflection calculations – Rebekah Smith](pic11.png)
 
 For a simply supported beam with a concentrated load at the center, the maximum deflection is: δmax = FL³/(48EI) The area moment of inertia for a rectangular cross-section is: I = bh³/12Substituting the moment of inertia equation into the deflection equation: δmax = FL³/[48E(bh³/12)] Simplifying: δmax = FL³/(4Ebh³) First, calculate the area moment of inertia: I = (50)(40³)/12 I = 266,666.7 mm⁴ Calculate the maximum deflection: δmax = [(2000)(304.8³)]/[(48)(200000)(266666.7)] δmax = 0.0221 mm Compare the calculated deflection to the maximum allowable deflection: 0.0221 mm < 0.1 mm The calculated maximum deflection of 0.0221 mm is below the allowable deflection of 0.1 mm. Therefore, the selected crosshead dimensions satisfy the preliminary stiffness requirement.
 
