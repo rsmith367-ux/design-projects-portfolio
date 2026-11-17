@@ -66,9 +66,9 @@ Figure 6 – McMaster-Carr dimensioned drawing of the selected steel flange (950
 ![McMaster-Carr dimensioned drawing of the selected steel flange (95082A641)](pic20.png)
 
 
-Component	Part number	Quantity	Key dimensions
-Bronze nut	95072A127	2	3/8-10 internal thread; 0.688 in OD; 0.625 in length
-Steel flange	95082A641	2	9/16-18 mounting thread; nominal 1.609 in OD; 1.125 in bolt circle
+| **Component** | **Part number** | **Quantity** | **Key dimensions** |
+| ------------- | -------------- | -----------: | ----------------- |
+| McMaster-Carr Component | [93410A608](https://www.mcmaster.com/93410A608/ "93410A608") | 1 | See manufacturer drawing for dimensions |
 
 ### Crosshead Design and CAD - Rebekah Smith
 The objective of this portion of the project was to design a crosshead for a mechanically driven tensile testing machine capable of applying a maximum tensile load of 2 kN. The crosshead connects the two vertical leadscrews through bronze nut and flange assemblies and provides a mounting location for the tensile specimen. The design required selecting an appropriate material and cross-sectional dimensions while maintaining a factor of safety of 4 and limiting the maximum crosshead deflection to 0.1 mm. Beam strength and deflection analyses were performed to determine whether the proposed crosshead dimensions would meet the design requirements.
