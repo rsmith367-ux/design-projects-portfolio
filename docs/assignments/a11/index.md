@@ -172,6 +172,101 @@ The calculated bending stress is compared with the appropriate material strength
 
 ![Calculations](pic11.png)
 
+### Top Frame Geometry and Material
+
+| **Specification** | **Value** |
+|---|---:|
+| Extrusion series | 40 Series |
+| Material | 6061-T6 aluminum |
+| Profile width | 1.575 in |
+| Profile height | 1.575 in |
+| Length | 12 in |
+| Slot width | 0.320 in |
+| Slot depth | 0.485 in |
+| Center hole diameter | 0.276 in |
+| Motor/support spacing | 9.62 in |
+
+### Material Properties
+
+The preliminary material properties used for the 6061-T6 aluminum extrusion are:
+
+| **Material Property** | **Value** | **Units** |
+|---|---:|---|
+| Yield strength | 35,000 | psi |
+| Elastic modulus | 10,000,000 | psi |
+| Poisson's ratio | 0.33 | - |
+
+The final material properties should be checked against the extrusion manufacturer's specifications.
+
+For a required factor of safety of 4, the preliminary allowable stress is calculated using:
+
+$$
+\sigma_{allow}=\frac{S_y}{FOS}
+$$
+
+Substituting the material yield strength and required factor of safety:
+
+$$
+\sigma_{allow}=\frac{35,000}{4}
+$$
+
+$$
+\boxed{\sigma_{allow}=8,750\text{ psi}}
+$$
+
+This allowable stress provides a preliminary comparison value for evaluating the FEA results.
+
+## Top Frame Finite Element Analysis (FEA)
+
+SolidWorks Simulation is used to evaluate the structural performance of the top frame under the expected operating loads. The simulation provides a visual representation of the stress distribution and displacement throughout the extrusion.
+
+The analysis focuses on determining whether the top frame can withstand the applied forces and motor reaction moments without exceeding the allowable stress or deformation limits.
+
+### Final FEA Results
+
+The final simulation results will be compared with the preliminary allowable stress of 8,750 psi and the design requirements to determine whether the top frame meets the structural design criteria.
+
+![Stress](pic8.png)
+![Displacement](pic9.png)
+![FOS](pic10.png)
+
+The factor of safety based on the maximum von Mises stress is calculated using:
+
+$$
+FOS=\frac{S_y}{\sigma_{von\ Mises}}
+$$
+
+Substituting the preliminary yield strength of 6061-T6 aluminum:
+
+$$
+FOS=\frac{241.3\text{ MPa}}{\sigma_{von\ Mises}}
+$$
+
+### FEA Results Discussion
+
+The von Mises stress plot is used to identify the locations experiencing the highest stress under the applied loading conditions. These locations are important because they indicate potential areas where yielding may occur.
+
+The displacement plot is used to evaluate how much the top frame deforms under the applied loads. Excessive displacement could affect the alignment of the lead screws and crosshead, potentially reducing the accuracy and functionality of the tensile tester.
+
+The motor reaction moments are also considered because they may cause twisting or warping of the extrusion. The displacement results should be examined to determine whether the frame experiences significant rotational deformation in addition to bending.
+
+
+### Design Improvements and Optimization
+After reviewing the hand calculations and FEA results, potential design improvements are identified to improve the structural performance of the top frame and mounting connections.
+Possible improvements include:
+Adjusting the mounting bracket configuration.
+Increasing bracket thickness or changing the bracket geometry.
+Reducing the distance between the applied load and the bracket connection where possible.
+Improving the spacing or arrangement of the frame supports.
+Adding additional structural support to reduce twisting.
+Revising the motor mounting arrangement to reduce the moment transferred into the frame.
+
+### Vertical Frame FEA- Farima Pournia 
+* For this part for the assignment I conducted FEA on the vertical components of the frame in order to analyze the effect forces will have on our frame. I used Solidworks to conduct this analysis and run my simulation. I first isolated one of the vertical columns in CAD and then assigned the correct material of 6063-T4 Aluminum then proceeded to assign two forces to the column. I applied one axial compression force of 2 kN as a result of the top of the frame pushing down on the column. The second force I added to the simulation was the torque of 6 N that the motor will exert on the column, this force was added to the side of the column around the center axis. After assigning my forces I proceeded to add in a fixed fixture for the bottom of the column.
+
+
+
+
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
