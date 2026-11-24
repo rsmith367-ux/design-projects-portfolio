@@ -61,6 +61,44 @@ $$
 
 However, the gearbox has a maximum permissible output torque of 6 N·m. Therefore, the actual output torque must not exceed this gearbox rating.
 
+Important: The 1.03 N·m motor value is holding torque, not confirmed running torque. The actual operating torque depends on motor speed and the torque-speed curve. The final FEA moment must be based on the verified operating or design reaction torque, rather than automatically assuming the holding torque is available during operation.
+
+![FBD](pic4.png)
+
+Equilibrium Equations
+The reaction forces and moments are determined using static equilibrium.
+Sum of forces in the horizontal direction:
+[
+\sum F_x=0
+]
+Sum of forces in the vertical direction:
+[
+\sum F_y=0
+]
+Sum of forces in the remaining direction:
+[
+\sum F_z=0
+]
+Sum of moments about the x-axis:
+[
+\sum M_x=0
+]
+Sum of moments about the y-axis:
+[
+\sum M_y=0
+]
+Sum of moments about the z-axis:
+[
+\sum M_z=0
+]
+The equations are applied to the individual motor connections, vertical supports, and top frame to determine the reaction forces and moments at each connection.
+Mounting Bracket Design and Analysis
+The mounting brackets connect the vertical supports to the 40 Series T-slot frame. These connections must resist the forces and moments transferred from the motor and lead screw system while maintaining proper alignment of the tensile tester.
+The selected bracket is the McMaster-Carr 5537T348 90-degree extended corner bracket. The bracket is manufactured from powder-coated 6063-T5 aluminum and includes M8 mounting hardware.
+
+
+
+
 
 
 ## Decide
