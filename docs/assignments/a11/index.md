@@ -30,55 +30,36 @@ In addition to the axial loading, the motor mounting arrangement introduces reac
 ### Motor Specifications
 
 The selected motor is the STEPPERONLINE 23HS22-2804S-HG10 NEMA 23 stepper motor with a 10:1 planetary gearbox.
+**Motor Specifications**
 
-Motor Specification
-Value
-Units
-Motor holding torque
-1.03
-N·m
-Gearbox ratio
-10:1
--
-Gearbox efficiency
-92
-%
-Theoretical gearbox output torque
-9.476
-N·m
-Maximum permissible gearbox output torque
-6
-N·m
-Motor phase current
-2.8
-A
-Motor phase resistance
-0.9
-Ω
-Gearbox backlash
-≤30
-Arcmin
+| Motor Specification | Value | Units |
+|---|---:|---|
+| Motor holding torque | 1.03 | N·m |
+| Gearbox ratio | 10:1 | - |
+| Gearbox efficiency | 92 | % |
+| Theoretical gearbox output torque | 9.476 | N·m |
+| Maximum permissible gearbox output torque | 6 | N·m |
+| Motor phase current | 2.8 | A |
+| Motor phase resistance | 0.9 | Ω |
+| Gearbox backlash | ≤30 | Arcmin |
 
 The theoretical gearbox output torque is calculated using:
-[
+
+$$
 T_{out}=T_{motor}\times G\times\eta
-]
+$$
+
 Substituting the motor specifications:
-[
+
+$$
 T_{out}=1.03(10)(0.92)
-]
-[
-T_{out}=9.476\text{ N}\cdot\text{m}
-]
-However, the gearbox has a maximum permissible output torque of 6 N·m. Therefore, the output torque must not exceed this gearbox rating.
+$$
 
+$$
+\boxed{T_{out}=9.476\text{ N}\cdot\text{m}}
+$$
 
-
-
-
-
-
-
+However, the gearbox has a maximum permissible output torque of 6 N·m. Therefore, the actual output torque must not exceed this gearbox rating.
 
 
 
