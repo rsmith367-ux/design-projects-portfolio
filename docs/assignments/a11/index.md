@@ -334,54 +334,6 @@ Overall the simulations between the two different types of meshes matched up res
 
 I spent 5 hours on this assignment. 
 
-### Group work
-
-## Bill of Materials and Labor Costs
-
-### 1. Component Costs
-
-| Item | Description | Quantity | Unit Cost | Total Cost |
-|---|---|---:|---:|---:|
-| 1 | McMaster-Carr 5537T348 mounting brackets | 4 | $13.21 | $52.84 |
-| 2 | STEPPERONLINE 23HS22-2804S-HG10 stepper motors | 2 | $79.94 | $159.88 |
-| | **Component Subtotal** | | | **$212.72** |
-
-### 2. Labor Costs
-
-The estimated labor rate for an entry-level mechanical engineering designer is $35.00 per hour. Each group member spent approximately 5–6 hours completing their assigned portion of the project.
-
-| Group Member | Hours (Low) | Hours (High) | Hourly Rate | Labor Cost (Low) | Labor Cost (High) |
-|---|---:|---:|---:|---:|---:|
-| Person 1 – AC | 5 | 6 | $35.00 | $175.00 | $210.00 |
-| Person 2 – Bekah | 5 | 6 | $35.00 | $175.00 | $210.00 |
-| Person 3 – Farima | 5 | 6 | $35.00 | $175.00 | $210.00 |
-| **Total Labor** | **15** | **18** | | **$525.00** | **$630.00** |
-
-### 3. Combined Project Cost
-
-| Cost Category | Minimum Cost | Maximum Cost |
-|---|---:|---:|
-| Components listed above | $212.72 | $212.72 |
-| Engineering labor | $525.00 | $630.00 |
-| **Total Project Cost** | **$737.72** | **$842.72** |
-
-### ### 4. Average Labor Cost Calculation
-
-Using an estimated average of 5.5 hours per group member and an hourly engineering labor rate of $35:
-
-### 4. Average Labor Cost Calculation
-
-| Description | Calculation | Total |
-|---|---|---:|
-| Group Members | 3 members | 3 |
-| Average Hours per Member | 5.5 hours | 5.5 hours |
-| Total Labor Hours | 3 × 5.5 | 16.5 hours |
-| Engineering Labor Rate | $35/hour | $35/hour |
-| Total Labor Cost | 16.5 × $35 | **$577.50** |
-| Current Component Cost |  | $212.72 |
-| **Combined Project Cost** | $577.50 + $212.72 | **$790.22** |
-
-
 ### Group Work
 
 ## Bill of Materials (BOM) and Engineering Labor Cost
