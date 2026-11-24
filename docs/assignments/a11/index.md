@@ -456,4 +456,4 @@ Overall, this project strengthened our understanding of mechanical design, compo
 
 ## CAD ZIP 
 
-![Stress](A11_Updated.zip)
+![CAD ZIP](A11_Updated.zip)
