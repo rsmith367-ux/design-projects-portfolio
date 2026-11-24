@@ -365,25 +365,21 @@ The estimated labor rate for an entry-level mechanical engineering designer is $
 | Engineering labor | $525.00 | $630.00 |
 | **Total Project Cost** | **$737.72** | **$842.72** |
 
+### ### 4. Average Labor Cost Calculation
+
+Using an estimated average of 5.5 hours per group member and an hourly engineering labor rate of $35:
+
 ### 4. Average Labor Cost Calculation
 
-For an estimated average of 5.5 hours per group member:
-
-$$
-\text{Total Labor Hours}=3(5.5)=16.5\text{ hours}
-$$
-
-$$
-\text{Labor Cost}=16.5(35)=\$577.50
-$$
-
-$$
-\text{Combined Cost}=212.72+577.50
-$$
-
-$$
-\boxed{\text{Combined Cost}=\$790.22}
-$$
+| Description | Calculation | Total |
+|---|---|---:|
+| Group Members | 3 members | 3 |
+| Average Hours per Member | 5.5 hours | 5.5 hours |
+| Total Labor Hours | 3 × 5.5 | 16.5 hours |
+| Engineering Labor Rate | $35/hour | $35/hour |
+| Total Labor Cost | 16.5 × $35 | **$577.50** |
+| Current Component Cost |  | $212.72 |
+| **Combined Project Cost** | $577.50 + $212.72 | **$790.22** |
 
 
 ### Group Work
