@@ -7,6 +7,47 @@ The objective of this project is to design and develop a functional tensile test
 
 ## Analyze
 
+### Ac 
+Design basis: 2,000 N total axial loading; two 3/8-10 right-hand single-start Stub Acme lead screws; 1,000 N per screw; 1–50 mm/min crosshead travel; required safety factor 4.
+### Motor Selection (10 points)
+Selected candidate: STEPPERONLINE 23HS22-2804S-HG10, NEMA 23 stepper with a 10:1 planetary gearbox. Two identical motors are proposed (one per lead screw).
+
+![Chart](pic22.png)
+![Motor](pic23.png)
+
+Verification note: The 6 N·m specification is a gearbox ceiling, not a continuous-duty certification. Manufacturer pull-out curve does not cover 0.394–7.5 rpm, and thrust-bearing friction is not included in the assumed raising torque. Motor control and power supply are outside the assigned mechanical design scope.
+Manufacturer source: https://www.omc-stepperonline.com/nema-23-stepper-motor-l-56mm-gear-ratio-10-1-high-precision-planetary-gearbox-23hs22-2804s-hg10
+
+### Motor Mount Design (10 points)
+The bracket is modeled in SolidWorks as a gusset-reinforced L-shaped mounting component. The final conceptual layout positions the vertical mounting leg alongside the upper T-slot rail, keeping the motor concentric with the lead screw. The two elongated frame slots were modified to 5.5 mm clearance width.
+
+![Chart](pic24.png)
+
+For four equally loaded motor bolts: r = 47 / √2 = 33.23 mm; Fb = 6,000 / (4r) = 45.13 N per bolt.
+Allowable bearing stress = Sy / SF = 250 / 4 = 62.50 MPa. Minimum thickness from σb = Fb/(dt): tmin = 45.13 / (5 × 62.5) = 0.144 mm. At actual t = 3 mm: σb = 45.13/(5 × 3) = 3.01 MPa < 62.50 MPa.
+Frame bolt reaction couple (idealized): Ff = T / s = 6,000 / 39.1 = 153.45 N per bolt. A gravity-only plate estimate with F = 16 N, span 46.16 mm, width 65 mm gives ≈7.57 MPa bending stress and ≈0.018 mm deflection. These idealizations are NOT a full frame-joint stiffness or T-nut strength analysis.
+
+![Bracket](pic25.png)
+![Assembly](pic26.png)
+
+Verification note: The 3 mm thickness passes the local bolt-bearing analysis, but joint preload, plate bending under reaction torque, prying, actual fastener grade and rail attachment require final verification. Motor holes are nominal Ø5.0 mm; confirm bolt clearance before fabrication.
+
+### Coupler Design (10 points)
+The custom unequal-bore coupler is modeled in SolidWorks to connect the geared motor output to the 3/8-inch lead screw. Motor-side torque transfer uses the existing keyed shaft. A radial M5 × 0.8 set screw is modeled on the lead-screw side, intended to contact a shallow flat near the shaft end.
+
+![Bracket](pic27.png)
+![Assembly](pic28.png)
+Figure 11. AC — Coupler torsion and set-screw free-body diagram (idealized)
+
+![Assembly](pic29.png)
+
+Verification note: A body torsion pass does not verify the single set screw. A friction-only model at µ = 0.20 and effective radius 4 mm requires N ≈ 4,395 / (0.20 × 4) = 5.49 kN normal force; this is not independently validated for an M5 set screw into 6061-T6 threads. Motor keyway stress concentration, shaft-tip contact, and lead-screw thrust bearing support remain open verification items.
+
+ ### Engineering Lessons and Handoff
+The CAD fit-up revealed that aligning the motor and coupler did not guarantee that the L-shaped bracket could reach or clear the upper frame rail. The bracket had to be checked in the real assembly and reoriented. The coupler analysis also separated bulk material strength from connection reliability: a very low torsional shear stress does not prove that a set screw can hold torque on a threaded lead screw.
+Available to integrate: Motor/bracket/coupler subassembly screenshots; revised bracket, coupler, and lead-screw STEP models; the three detailed one-page calculation sheets; and the manufacturer motor curve. The final BOM must use actual purchase quotations and verified labor hours rather than estimated completion claims.
+The separate three-page calculation sheets, supplied in the package, contain the detailed A10-style equations and diagrams. Numbered image files 122.png (motor), 126.png (mount), and 130.png (coupler) can be inserted into the shared document if the group wants the full calculation pages in addition to this copy-ready narrative.
+
 
 ### Frame Connections, Bracket Design, and Top Frame FEA - Bekah 
 
@@ -345,8 +386,74 @@ $$
 $$
 
 
+### Group Work
+
+## Bill of Materials (BOM) and Engineering Labor Cost
+
+### Bill of Materials
+
+The bill of materials (BOM) identifies the components selected for the tensile tester and their associated costs. The following table includes the components that have been selected and priced so far.
+
+| Component | Part Number | Quantity | Unit Cost | Total Cost |
+|---|---|---:|---:|---:|
+| 90° Extended Corner Bracket | McMaster-Carr 5537T348 | 4 | $13.21 | $52.84 |
+| NEMA 23 Stepper Motor with 10:1 Gearbox | STEPPERONLINE 23HS22-2804S-HG10 | 2 | $79.94 | $159.88 |
+| **Current Component Subtotal** | | | | **$212.72** |
+
+*Note: The corner brackets include the required M8 mounting hardware. The listed component subtotal represents the components priced so far and does not represent the final cost of the complete tensile tester.*
+
+### Engineering Labor Cost
+
+Engineering labor costs were estimated using an entry-level mechanical engineering designer rate of **$35 per hour**. Each group member spent approximately 5–6 hours completing their assigned design, calculations, CAD modeling, and analysis tasks.
+
+| Group Member | Assigned Work | Estimated Hours | Hourly Rate | Estimated Labor Cost |
+|---|---|---:|---:|---:|
+| Person 1 (AC) | Motor selection, motor mount design, and coupler design | 5–6 | $35 | $175–$210 |
+| Person 2 (Bekah) | Frame connections, mounting bracket calculations, and top frame FEA | 5–6 | $35 | $175–$210 |
+| Person 3 (Farima) | Vertical frame FEA and floating bearing mount design | 5–6 | $35 | $175–$210 |
+| **Total** | | **15–18** | | **$525–$630** |
+
+### Estimated Project Cost
+
+The estimated project cost combines the current component subtotal with the estimated engineering labor cost.
+
+| Cost Category | Estimated Cost |
+|---|---:|
+| Current Component Subtotal | $212.72 |
+| Engineering Labor | $525.00–$630.00 |
+| **Estimated Total** | **$737.72–$842.72** |
+
+Using the midpoint estimate of 5.5 labor hours per group member, the group spent approximately 16.5 hours on the project. This results in an estimated labor cost of $577.50 and a current combined project cost of **$790.22**.
 
 ## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+
+The Decide section presents the final design decisions made by the group based on the research, engineering calculations, free-body diagrams, and simulation results completed during the Analyze phase. The purpose of this section is to explain how the group evaluated the available design options, selected the mechanical components, and determined the final configuration of the tensile testing machine. Each group member contributed to the final design by selecting and evaluating the components associated with their assigned responsibilities.
+
+The first part of the design selection focuses on the motor and drive system. The group selected two STEPPERONLINE 23HS22-2804S-HG10 NEMA 23 stepper motors with integrated 10:1 planetary gearboxes to drive the two lead screws. Each motor drives one 3/8-10 right-hand single-start Stub Acme lead screw, allowing the movable crosshead to travel vertically while maintaining a balanced loading arrangement. Custom couplers made from 6061-T6 aluminum were designed to connect the motor shafts to the lead screws. A gusset-reinforced motor mounting bracket was also developed to support each motor and provide a rigid connection to the frame. These components were selected based on the required crosshead speed, torque requirements, available space, and compatibility with the overall machine design. The torque calculations were used to evaluate whether the selected motor and gearbox configuration could provide the required driving torque while remaining below the gearbox's maximum permissible output torque.
+
+The structural frame and connection components were selected to provide sufficient support and stability under the tensile testing machine's maximum design load of 2 kN. The group selected 40 Series T-slot aluminum extrusion for the frame because it provides a modular structure that can be assembled and adjusted using standard mounting hardware. McMaster-Carr 5537T348 extended 90-degree corner brackets with M8 mounting hardware were selected for the frame connections. The motor mounting configuration and frame spacing were also considered to ensure proper alignment between the motors, lead screws, and crosshead. Engineering calculations were performed to evaluate the loading on the brackets and fasteners, while SolidWorks Simulation was used to investigate the structural behavior of the top frame and potential twisting caused by motor reaction torque.
+
+The vertical frame and floating bearing mount were also evaluated to ensure proper support and alignment of the lead screw system. The vertical frame was modeled using 6063-T4 aluminum and evaluated in SolidWorks Simulation under a 2 kN axial compressive load and a 6 N·m applied torque. Multiple mesh sizes were used to evaluate mesh convergence and determine whether the stress and displacement results remained consistent. The results showed that the maximum stress changed by less than 5% between the two mesh studies, while the maximum displacement remained approximately 0.14 mm. Based on the simulation results and the factor-of-safety evaluation, the selected column configuration was considered acceptable for the modeled loading conditions. A floating bearing mount was also designed to support the lead screw while allowing the bearing arrangement to accommodate the intended assembly configuration.
+
+After evaluating the individual components, the group considered how the selected parts would function together as a complete tensile testing machine. The final design was reviewed using engineering calculations, free-body diagrams, SolidWorks Simulation, and CAD assembly checks. Particular attention was given to component alignment, mounting
+
 
 ## Communicate
+
+### Lessons Learned
+
+Throughout this project, our group gained a better understanding of the engineering design process and the importance of coordinating individual components to develop a complete tensile testing machine. Each group member was responsible for different portions of the design, including the motor and coupler system, structural frame connections, mounting brackets, vertical supports, and bearing mounts. Combining these individual designs required communication, coordination, and consideration of how each component would function within the complete assembly.
+
+One of the most important lessons we learned was the importance of selecting components based on both their specifications and their intended operating conditions. During the motor selection process, we learned that a motor's holding torque does not necessarily represent the torque available during operation. We also learned that gearbox limitations, mechanical efficiency, and operating speed must be considered when selecting a drive system. Similarly, designing the motor mounting brackets and couplers demonstrated that a component passing a basic strength calculation does not automatically mean the entire connection is reliable. Fastener strength, contact forces, alignment, and connection geometry must also be evaluated.
+
+Another important lesson involved structural analysis and the use of SolidWorks Simulation. Through the FEA of the top frame and vertical supports, we learned how applied forces, moments, material properties, fixtures, and mesh sizes influence simulation results. Comparing simulations with different mesh sizes helped us understand the importance of mesh convergence and checking whether the results remain consistent as the mesh becomes finer. We also observed that stress concentrations and maximum displacement often occur near corners, supports, and locations where loads are applied. These results showed us why identifying critical areas is important when evaluating structural integrity and considering design improvements.
+
+We also learned the importance of using free-body diagrams and hand calculations before performing simulations. Breaking the tensile tester into individual components and analyzing the forces and moments acting on each connection helped us better understand the load paths throughout the machine. Calculations involving bending stress, bolt shear, bearing stress, tear-out, torsion, and factor of safety provided a foundation for evaluating whether the selected components could withstand the expected loading conditions. We learned that assumptions made during preliminary calculations must be verified against the actual component geometry, manufacturer specifications, and final assembly.
+
+Finally, this project demonstrated the importance of teamwork and communication when completing a large engineering design. Dividing the work between three group members allowed us to focus on individual design responsibilities while contributing to the same overall objective. However, we also learned that individually completed components must be checked together in the final SolidWorks assembly to identify potential alignment, clearance, and connection issues. Sharing CAD models, calculations, and simulation results helped us combine our work into a more complete design.
+
+Overall, this project strengthened our understanding of mechanical design, component selection, structural analysis, finite element analysis, and engineering documentation. It also taught us that successful engineering design requires more than designing individual components; every part must work together safely and effectively to meet the requirements of the complete system.
+
+## CAD ZIP 
+
+![Stress](A11_Updated.zip)
