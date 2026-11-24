@@ -65,40 +65,112 @@ Important: The 1.03 N·m motor value is holding torque, not confirmed running to
 
 ![FBD](pic4.png)
 
-Equilibrium Equations
+### Equilibrium Equations
 The reaction forces and moments are determined using static equilibrium.
 Sum of forces in the horizontal direction:
-[
+
+**Sum of forces in the x-direction:**
+
+$$
 \sum F_x=0
-]
-Sum of forces in the vertical direction:
-[
+$$
+
+**Sum of forces in the vertical (y) direction:**
+
+$$
 \sum F_y=0
-]
-Sum of forces in the remaining direction:
-[
+$$
+
+**Sum of forces in the z-direction:**
+
+$$
 \sum F_z=0
-]
-Sum of moments about the x-axis:
-[
+$$
+
+**Sum of moments about the x-axis:**
+
+$$
 \sum M_x=0
-]
-Sum of moments about the y-axis:
-[
+$$
+
+**Sum of moments about the y-axis:**
+
+$$
 \sum M_y=0
-]
-Sum of moments about the z-axis:
-[
+$$
+
+**Sum of moments about the z-axis:**
+
+$$
 \sum M_z=0
-]
+$$
+
 The equations are applied to the individual motor connections, vertical supports, and top frame to determine the reaction forces and moments at each connection.
 Mounting Bracket Design and Analysis
 The mounting brackets connect the vertical supports to the 40 Series T-slot frame. These connections must resist the forces and moments transferred from the motor and lead screw system while maintaining proper alignment of the tensile tester.
 The selected bracket is the McMaster-Carr 5537T348 90-degree extended corner bracket. The bracket is manufactured from powder-coated 6063-T5 aluminum and includes M8 mounting hardware.
 
+![Selected bracket](pic5.png)
+
+![Bracket](pic6.png)
 
 
+### Bracket Free-Body Diagram
 
+![FBD and calculations](pic7.png)
+
+The bracket FBD is used to determine the forces transferred through the mounting bolts and the resulting bending moment in the bracket. The applied force and moment arm must be measured from the actual bracket geometry and connection location.
+Bracket Bending Stress
+The bending moment is calculated using:
+
+The bending moment is calculated using:
+
+$$
+M=F L
+$$
+
+Where:
+
+- \(M\) = bending moment (N·mm)
+- \(F\) = applied force (N)
+- \(L\) = perpendicular distance from the bolt-group reference point to the force line of action (mm)
+
+For a simplified rectangular cross-section, the section modulus is:
+
+### Bracket Bending Stress
+
+The bending moment is calculated using:
+
+$$
+M=FL
+$$
+
+Where:
+
+- \(M\) = bending moment (N·mm)
+- \(F\) = applied force (N)
+- \(L\) = perpendicular distance from the bolt-group reference point to the force line of action (mm)
+
+For a simplified rectangular cross-section, the section modulus is:
+
+$$
+S=\frac{bt^2}{6}
+$$
+
+Where:
+
+- \(b\) = section width (mm)
+- \(t\) = section thickness (mm)
+
+The bending stress is calculated using:
+
+$$
+\sigma_b=\frac{M}{S}
+$$
+
+The calculated bending stress is compared with the appropriate material strength to evaluate the bracket's ability to withstand the applied load.
+
+![Calculations](pic11.png)
 
 
 ## Decide
