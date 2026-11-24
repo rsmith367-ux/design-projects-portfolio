@@ -15,6 +15,72 @@ Design Objective
 The objective of this portion of the project is to design and analyze the structural connections between the vertical supports and the top frame of the tensile tester. The frame must support the applied tensile loads while maintaining sufficient strength and stiffness to prevent excessive bending, twisting, or deformation during operation.
 The analysis focuses on the forces and moments transferred from the two motors into the frame, the structural integrity of the mounting brackets and fasteners, and the ability of the top frame to withstand the applied loading conditions. Hand calculations and free-body diagrams are used to determine the forces and moments acting on the connections. SolidWorks Simulation is then used to evaluate the top frame through finite element analysis (FEA), including von Mises stress, displacement, factor of safety, and mesh convergence.
 
+### Known and Unknown Variables
+
+The following known variables were identified before beginning the frame connection and structural analysis, and the variables that must be determined through engineering calculations or SolidWorks Simulation.
+
+![Knowns and Unkowns](pic3.png)
+
+### Frame Connection and Motor Twisting Analysis
+\
+The tensile tester uses two identical stepper motors positioned above the lead screw system. Both motors are mounted with their shafts oriented vertically downward. The center-to-center spacing between the motor and vertical support locations is 9.62 inches.
+Each motor drives a lead screw that contributes to the movement of the crosshead. The two lead screws share the required tensile load, resulting in an axial load path of 1,000 N per lead screw under the 2,000 N maximum loading condition.
+In addition to the axial loading, the motor mounting arrangement introduces reaction torques into the frame. These reaction torques must be considered because they can cause twisting or warping of the top extrusion and place additional loading on the mounting brackets.
+
+### Motor Specifications
+
+The selected motor is the STEPPERONLINE 23HS22-2804S-HG10 NEMA 23 stepper motor with a 10:1 planetary gearbox.
+
+Motor Specification
+Value
+Units
+Motor holding torque
+1.03
+N·m
+Gearbox ratio
+10:1
+-
+Gearbox efficiency
+92
+%
+Theoretical gearbox output torque
+9.476
+N·m
+Maximum permissible gearbox output torque
+6
+N·m
+Motor phase current
+2.8
+A
+Motor phase resistance
+0.9
+Ω
+Gearbox backlash
+≤30
+Arcmin
+
+The theoretical gearbox output torque is calculated using:
+[
+T_{out}=T_{motor}\times G\times\eta
+]
+Substituting the motor specifications:
+[
+T_{out}=1.03(10)(0.92)
+]
+[
+T_{out}=9.476\text{ N}\cdot\text{m}
+]
+However, the gearbox has a maximum permissible output torque of 6 N·m. Therefore, the output torque must not exceed this gearbox rating.
+
+
+
+
+
+
+
+
+
+
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
